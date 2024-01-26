@@ -1,0 +1,169 @@
+﻿= 学術論文
+
+== 原著論文(英文、査読あり)
+
+Kobayashi, H., A. Abe-Ouchi, and A. Oka (2015): Role of Southern Ocean stratification in glacial atmospheric CO2 reduction evaluated by a three-dimensional ocean general circulation model, Paleoceanography, 30(9), 1202-1216. https://doi.org/10.1002/2015PA002786
+
+Kobayashi, H., and A. Oka (2018): Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Paleoceanography and Paleoclimatology, 33(11), 1206-1229. https://doi.org/10.1029/2018PA003360
+
+Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi (2021): Glacial carbon cycle changes by Southern Ocean processes with sedimentary amplification, Science Advances, 7(35), eabg7723. https://doi.org/10.1126/sciadv.abg7723
+
+Lhardy, F. et al. [H. Kobayashi listed in 11th author] (2021): A first intercomparison of the simulated LGM carbon results within PMIP-carbon: role of the ocean boundary conditions, Paleoceanography and Paleoclimatology, 36(10), e2021PA004302. https://doi.org/10.1029/2021PA004302
+
+Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013-2033. https://doi.org/10.5194/gmd-15-2013-2022
+
+== 原著論文(和文、査読あり)
+
+== 総説(英文、査読あり)
+
+== 総説(和文、査読あり)
+
+小林英貴, 岡顕 (2023): 氷期の海洋炭素循環シミュレーション, 地球化学. 57(2), 205-223. https://doi.org/10.14934/chikyukagaku.57.205
+
+== 編著書（英文）
+
+== 編著書（和文）
+
+== その他の著作(英文)
+
+== その他の著作(和文)
+
+= 学会発表
+
+== 国際学会
+
+Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Dec 16, 2014, San Francisco, USA, 2014 AGU Fall Meeting, poster.
+
+Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Jun 28, 2015, Prague, Czech Republic, 26th General Assembly of the IUGG, oral.
+
+Kobayashi, H., and A. Oka, Role of Southern Ocean in glacial atmospheric CO2 reduction, Jun 27, 2016, Yokohama, Japan, Goldschmidt2016, oral.
+
+Kobayashi, H., and A. Oka, Modeling of glacial ocean carbon cycle by focusing on the role of the Southern Ocean and carbonate compensation process, Aug 30, 2016, Utrecht, The Netherlands, 12th International Conference on Paleoceanography, poster.
+
+Kobayashi, H., Role of carbon cycle in glacial reduction of atmospheric carbon dioxide concentration, Sept 6, 2018, Cambridge, England, OC3 workshop, poster.
+
+Kobayashi, H., and A. Oka, Simulations of glacial ocean carbon cycle with a parameterization of brine rejection, Dec 3, 2018, Tachikawa, Japan, 1st GRAntarctic International Symposium, oral.
+
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Apr 8, 2019, Vienna, Austria, EGU General Assembly, poster.
+
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Sept 2, 2019, Sydney, Australia, 13th International Conference on Paleoceanography, poster.
+
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Feb 20, 2020, San Diego, USA, Ocean Sciences Meeting, oral.
+
+Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi, Glacial ocean carbon cycle changes caused by enhanced stratification in the Southern Ocean and iron fertilization from glaciogenic dust, Jul 12, 2020, virtual, JpGU-AGU Joint Meeting 2020, poster.
+
+Kobayashi, H., and A. Oka, A modeling study of early diagenesis using an ocean sediment model, Jul 12, 2020, virtual, JpGU-AGU Joint Meeting 2020, poster.
+
+Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi, Glacial ocean carbon cycle changes caused by Southern Ocean processes with sedimentary amplification, Oct 26, 2020, virtual, PMIP 2020, poster.
+
+Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi, Impacts of enhanced salinity stratification and iron fertilization in the Southern Ocean on the distribution of ocean biochemical tracers during the Last Glacial Maximum, Mar 4, 2022, virtual, Ocean Sciences Meeting 2022, poster.
+
+Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi, Glacial carbon cycle changes by Southern Ocean processes with sedimentary amplification, Aug 30, 2022, hybrid (Bergen), 14th International Conference on Paleoceanography, poster.
+
+Kobayashi, H., A. Oka, A. Yamamoto, A. Abe-Ouchi, Glacial carbon cycle changes by Southern Ocean processes with sedimentary amplification, Jul 12, 2023, Berlin, 28th General Assembly of the IUGG, oral.
+
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Transient response of the ocean carbon cycle during the last deglaciation ~ Investigating the impact of climate and AMOC on carbon isotope signatures ~, Jul 15, 2023, Rome, XXI INQUA Congress, poster.
+
+
+== 国内学会
+
+小林英貴、岡顕、氷期の海洋炭素循環に関する数値シミュレーション、2013年9月18日、札幌、2013年度海洋学会秋季大会、口頭．
+
+小林英貴、岡顕、氷期における南大洋成層化が海洋炭素循環に及ぼす影響の評価、2014年4月29日、横浜、日本地球惑星科学連合2014年大会、口頭．
+
+小林英貴、岡顕、南大洋の物理過程が海洋炭素循環の変動に与える影響、2014年7月23日、立川、国立極地研究所研究集会「南極海海洋循環と南極氷床変動に関する研究の展開」、口頭．
+
+小林英貴、岡顕、南大洋の物理過程が海洋炭素循環の変動に与える影響、2015年3月4日、東京大学大気海洋研究所研究集会「海洋生態系モデリングの最前線: 成果、連携、次世代への展開」、ポスター．
+
+小林英貴、岡顕、南大洋成層化が氷期の大気中二酸化炭素濃度変動に及ぼす影響の評価、2015年5月28日、幕張、日本地球惑星科学連合2015年大会、口頭．
+
+小林英貴、岡顕、長期炭素循環変動の理解に向けた海洋堆積過程のモデリング、2015年9月27日、松山、2015年度日本海洋学会秋季大会、ポスター．
+
+小林英貴、岡顕、阿部彩子、氷期の大気中二酸化炭素濃度変動に果たす南大洋の役割、2016年5月24日、幕張、日本地球惑星科学連合2016年大会、口頭．
+
+小林英貴、岡顕、氷期の海洋炭素循環に関する数値シミュレーション、2016年11月15日、札幌、北海道大学低温科学研究所研究集会「西部北太平洋の微量元素の3次元循環像構築にむけたワークショップ」、口頭．
+
+小林英貴、氷期の海洋炭素循環変動の理解に向けた海洋堆積過程の数値シミュレーション、2016年11月17日、柏、東京大学大気海洋研究所共同利用研究集会「2016年度海洋生態系モデリングシンポジウム」、ポスター．
+
+小林英貴、岡顕、氷期の海洋炭素循環の理解に向けた海洋大循環モデルによる数値シミュレーション、2017年5月21日、幕張、日本地球惑星科学連合2017年大会、口頭．
+
+小林英貴、岡顕、炭酸塩補償過程を考慮した氷期の海洋炭素循環シミュレーション、2017年10月16日、仙台、2017年度日本海洋学会秋季大会、口頭．
+
+小林英貴、岡顕、氷期の大気中二酸化炭素濃度低下における海洋炭素循環の役割、2018年3月15日、柏、新学術領域「新海洋混合学」全体会議・総括班会議、ポスター．
+
+小林英貴、岡顕、ブライン排出過程と成層依存の鉛直拡散係数パラメタ化を導入した海洋大循環モデルによる氷期の海洋炭素循環に関する数値シミュレーション、2018年5月21日、幕張、日本地球惑星科学連合2018年大会、口頭．
+
+小林英貴、岡顕、氷期の大気中二酸化炭素濃度低下における海洋炭素循環の役割、2018年5月24日、幕張、日本地球惑星科学連合2018年大会、口頭．
+
+小林英貴、岡顕、鉛直拡散係数の成層依存性を考慮した海洋大循環モデルによる氷期海洋炭素循環シミュレーション、2019年5月26日、幕張、日本地球惑星科学連合2019年大会、口頭．
+
+小林英貴、氷期の海洋炭素循環変動に果たす南大洋の役割、2019年6月28日、柏、白鳳丸30周年記念世界一周航海(HEAW30)へ向けた研究戦略会議、口頭．
+
+小林英貴、海洋モデリングのはなし、2020年3月27日、virtual、国立極地研究所 共同利用研究集会「若手研究者・学生を対象とした南大洋・南極研究集会」、口頭．
+
+小林英貴、岡顕、山本彬友、阿部彩子、堆積過程の増幅を伴う南大洋の変化が氷期の海洋炭素循環に及ぼす影響、2020年11月29日、virtual、2020 年度日本海洋学会秋季大会、口頭．
+
+小林英貴、岡顕、山本彬友、阿部彩子、最終氷期最盛期の海洋炭素循環に関するモデリング研究堆積過程の増幅を伴う南大洋の変化が氷期の海洋炭素循環に及ぼす影響、2021年3月18日、virtual、新学術領域研究「南極の海と氷床」2021 年度年次報告会、口頭．
+
+小林英貴、岡顕、小長谷貴志、阿部彩子、最終退氷期における海洋炭素循環モデリング、2021年6月6日、virtual、日本地球惑星科学連合 2021 年大会、口頭．
+
+小林英貴、岡顕、山本彬友、阿部彩子、南大洋の塩分成層の強化と鉄肥沃化が氷期の海洋化学トレーサー分布に及ぼす影響、2021年9月17日、virtual、2021 年度日本海洋学会秋季大会、口頭．
+
+小林英貴、阿部彩子、岡顕、山本彬友、小長谷貴志、氷期サイクルにおける海洋炭素循環のモデリング研究、2022年3月15日、virtual、新学術領域研究「南極の海と氷床」2022 年度年次報告会、口頭．
+
+小林英貴、岡顕、山本彬友、阿部彩子、氷期の海洋炭素循環変動に対する南大洋の物理的・生物地球化学的過程の影響、2022年5月25日、hybrid (幕張)、日本地球惑星科学連合 2022 年大会、口頭．
+
+小林英貴、岡顕、小長谷貴志、阿部彩子、最終退氷期における海洋炭素循環モデリング (2)、2022年5月26日、hybrid (幕張)、日本地球惑星科学連合 2022 年大会、口頭．
+
+小林英貴、阿部彩子、岡顕、山本彬友、小長谷貴志、氷期サイクルにおける海洋炭素循環のモデリング研究、2022年8月25日、hybrid (熱海)、新学術領域研究「南極の海と氷床」2022 年度全体会合、口頭．
+
+小林英貴、岡顕、小長谷貴志、阿部彩子、最終退氷期における海洋炭素循環の過渡応答、2022年9月6日、hybrid (名古屋)、2022 年度日本海洋学会秋季大会、口頭．
+
+小林英貴、阿部彩子、岡顕、山本彬友、小長谷貴志、氷期サイクルにおける海洋炭素循環のモデリング研究、2022年9月9日、hybrid (高知)、日本地球化学会第 69 回年会、口頭．
+
+小林英貴、IPCC WG1 AR6 第 5 章の紹介、2022年9月12日、hybrid (高知)、南大洋・南極の堆積物研究と環境変動に関する若手研究集会、口頭．
+
+小林英貴、南大洋が鍵を握る氷期の大気中二酸化炭素濃度変化、2022年11月4日、hybrid (柏)、2022 年度第 8 回地球環境史学会年会、口頭．
+
+小林英貴、氷期海洋における炭素循環ならびに化学トレーサーの数値実験とその復元記録との比較、2023年3月4日、hybrid (柏)、令和 4 年度大気海洋研究所共同利用研究集会・古気候研究におけるプロキシとモデルの融合: 温暖期の気候変動、口頭．
+
+小林英貴、氷期海洋における炭素循環ならびに化学トレーサーの数値実験、2023年3月10日、hybrid (柏)、令和 4 年度大気海洋研究所共同利用研究集会・微量元素・同位体を用いた海洋生物地球化学研究 (GEOTRACES-Japan)、口頭．
+
+小林英貴、海洋子午面循環と気候 ~ 新第三紀における海洋モデリング研究の紹介、2023年5月19日、hybrid (高知), 令和 5 年度高知大学海洋コア国際研究所共同利用研究集会・第一回 極域研究集会「新第三紀における両極の気候変動と生態系」、口頭．
+
+小林英貴、阿部彩子、岡顕、山本彬友、小長谷貴志、最終退氷期における気候と大西洋子午面循環の変化に対する炭素同位体指標の数値シミュレーション、2023年9月25日、京都、2023 年度日本海洋学会秋季大会、口頭．
+
+= 競争的研究資金等
+
+== 日本学術振興会 科学研究費助成事業
+
+令和 3-5 年度, 若手研究, 研究代表者, 研究課題「海洋炭素循環の氷期における変動メカニズムに関する研究」, 総額 4,030 千円
+
+== 科学技術振興機構 戦略的創造研究推進事業
+
+令和 5-8 年度, さきがけ, 研究代表者, 研究課題「千年を超える過渡的な海洋炭素循環の変化の理解」, 総額 28,100 千円
+
+== 環境再生保全機構 環境研究総合推進費
+
+令和 5-7 年度, 戦略的研究開発（Ⅱ）, 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」
+
+== 国際エメックスセンター 若手研究者活動支援制度
+令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円
+
+= 賞罰
+
+日本地球惑星科学連合 2015 年大会「学生優秀発表賞」
+日本海洋学会 2015 年度秋季大会「若手ベストポスター賞」
+日本地球惑星科学連合 2016 年大会「学生優秀発表賞」
+
+= 招待講演・依頼講演
+日本地球惑星科学連合 2016 年大会
+日本地球惑星科学連合 2018 年大会
+日本地球惑星科学連合 2022 年大会
+日本地球化学会第 69 回年会
+2022 年度第 8 回地球環境史学会年会
+令和 4 年度大気海洋研究所共同利用・古気候研究におけるプロキシとモデルの融合: 温暖期の気候変動
+第一回 極域研究集会「新第三紀における両極の気候変動と生態系」
+
+= ジャーナルレフェリー
+Climate of the Past
