@@ -12,6 +12,8 @@ Lhardy, F. et al. [H. Kobayashi listed in 11th author] (2021): A first intercomp
 
 Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013-2033. https://doi.org/10.5194/gmd-15-2013-2022
 
+Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769-787. https://doi.org/10.5194/cp-20-769-2024
+
 == 原著論文(和文、査読あり)
 
 == 総説(英文、査読あり)
