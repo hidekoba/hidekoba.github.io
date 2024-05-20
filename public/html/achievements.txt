@@ -66,6 +66,7 @@ Kobayashi, H., A. Oka, A. Yamamoto, A. Abe-Ouchi, Glacial carbon cycle changes b
 
 Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Transient response of the ocean carbon cycle during the last deglaciation ~ Investigating the impact of climate and AMOC on carbon isotope signatures ~, Jul 15, 2023, Rome, XXI INQUA Congress, poster.
 
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi,  Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Apr 19, 2024, Vienna, EGU General Assembly, oral.
 
 == 国内学会
 
@@ -135,6 +136,10 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Transient response of the ocean c
 
 小林英貴、阿部彩子、岡顕、山本彬友、小長谷貴志、最終退氷期における気候と大西洋子午面循環の変化に対する炭素同位体指標の数値シミュレーション、2023年9月25日、京都、2023 年度日本海洋学会秋季大会、口頭．
 
+小林英貴、Modeling the Paleo-Oceanic Biogeochemical Cycle: Past Contributions and Future Perspectives、2024年3月7日、東京、古気候モデリング研究集会 2024、口頭．
+
+小林 英貴、岡 顕、小長谷 貴志、阿部 彩子、Mechanisms behind the transient changes in the ocean carbon cycle during the last deglaciation: insights from MIROC4m climate model simulations and proxy comparisons、2024年5月28日、幕張、日本地球惑星科学連合 2024 年大会、口頭．
+
 = 競争的研究資金等
 
 == 日本学術振興会 科学研究費助成事業
@@ -162,6 +167,7 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Transient response of the ocean c
 日本地球惑星科学連合 2016 年大会
 日本地球惑星科学連合 2018 年大会
 日本地球惑星科学連合 2022 年大会
+日本地球惑星科学連合 2024 年大会
 日本地球化学会第 69 回年会
 2022 年度第 8 回地球環境史学会年会
 令和 4 年度大気海洋研究所共同利用・古気候研究におけるプロキシとモデルの融合: 温暖期の気候変動
