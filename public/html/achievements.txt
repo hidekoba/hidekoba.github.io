@@ -68,6 +68,8 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Transient response of the ocean c
 
 Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi,  Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Apr 19, 2024, Vienna, EGU General Assembly, oral.
 
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Carbon isotope modeling implications for changes in the Southern Ocean carbon cycle during the last deglaciation, Aug 23, 2024, Chicago, 2024 Goldschmidt Conference, oral.
+
 == 国内学会
 
 小林英貴、岡顕、氷期の海洋炭素循環に関する数値シミュレーション、2013年9月18日、札幌、2013年度海洋学会秋季大会、口頭．
@@ -139,6 +141,9 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi,  Assessing transient changes in t
 小林英貴、Modeling the Paleo-Oceanic Biogeochemical Cycle: Past Contributions and Future Perspectives、2024年3月7日、東京、古気候モデリング研究集会 2024、口頭．
 
 小林 英貴、岡 顕、小長谷 貴志、阿部 彩子、Mechanisms behind the transient changes in the ocean carbon cycle during the last deglaciation: insights from MIROC4m climate model simulations and proxy comparisons、2024年5月28日、幕張、日本地球惑星科学連合 2024 年大会、口頭．
+小林 英貴、最終退氷期における海洋炭素循環モデリング、2024年8月9日、柏、令和 6 年度大気海洋研究所共同利用研究集会・古気候研究におけるプロキシとモデルの融合、口頭．
+
+小林 英貴、河川流入と海底堆積物変動が海洋炭素循環に与える影響のモデリング、2024年9月17日、東京、2024 年度日本海洋学会秋季大会、ポスター．
 
 = 競争的研究資金等
 
