@@ -72,6 +72,8 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Carbon isotope modeling implicati
 
 Kobayashi, H., Challenging the marine-centric view of the Late Pleistocene carbon cycle, Aug 27, 2024, Ginowan, EPPC Workshop 2024 ~Insight from Snowball into paleo and modern~, oral.
 
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics during the last glacial period: comparative analysis of the MIROC4m model and proxies, Dec 13, 2024, Wasington, D.C., USA, 2024 AGU Fall Meeting, poster.
+
 == 国内学会
 
 小林英貴、岡顕、氷期の海洋炭素循環に関する数値シミュレーション、2013年9月18日、札幌、2013年度海洋学会秋季大会、口頭．
@@ -161,7 +163,7 @@ Kobayashi, H., Challenging the marine-centric view of the Late Pleistocene carbo
 
 == 環境再生保全機構 環境研究総合推進費
 
-令和 5-7 年度, 戦略的研究開発（Ⅱ）, 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
+令和 5-7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
 
 == 国際エメックスセンター 若手研究者活動支援制度
 令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円, 研究期間終了
@@ -186,6 +188,7 @@ Kobayashi, H., Challenging the marine-centric view of the Late Pleistocene carbo
 = ジャーナルレフェリー
 Climate of the Past
 Communications Earth and Environment
-Geophysical Model Development
+Geoscientific Model Development
 Geophysical Reserach Letters
 Nature Communications
+Progress in Earth and Planetary Science
