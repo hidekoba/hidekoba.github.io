@@ -145,18 +145,24 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics durin
 小林英貴、Modeling the Paleo-Oceanic Biogeochemical Cycle: Past Contributions and Future Perspectives、2024年3月7日、東京、古気候モデリング研究集会 2024、口頭．
 
 小林 英貴、岡 顕、小長谷 貴志、阿部 彩子、Mechanisms behind the transient changes in the ocean carbon cycle during the last deglaciation: insights from MIROC4m climate model simulations and proxy comparisons、2024年5月28日、幕張、日本地球惑星科学連合 2024 年大会、口頭．
+
 小林 英貴、最終退氷期における海洋炭素循環モデリング、2024年8月9日、柏、令和 6 年度大気海洋研究所共同利用研究集会・古気候研究におけるプロキシとモデルの融合、口頭．
 
 小林 英貴、河川流入と海底堆積物変動が海洋炭素循環に与える影響のモデリング、2024年9月17日、東京、2024 年度日本海洋学会秋季大会、ポスター．
+
+小林 英貴、千年を超える過渡的な海洋炭素循環の変化の理解、2025年2月27日、柏、令和 6 年度大気海洋研究所共同利用研究集会・海洋のカーボンとバイオスフィアの相互作用、口頭．
 
 = 競争的研究資金等
 
 == 日本学術振興会 科学研究費助成事業
 
 令和 3-5 年度, 若手研究, 研究代表者, 研究課題「海洋炭素循環の氷期における変動メカニズムに関する研究」, 総額 4,030 千円, 研究期間終了
+
 令和 6-9 年度, 基盤研究 (B), 研究分担者（研究代表者：張 勁）, 研究課題「黒潮流域で乱流混合によって有光層に供給される栄養塩の変遷過程と生物生産への寄与」, 実施中
+
 令和 6-10 年度, 学術変革領域研究 (A), 研究分担者（領域代表者：青木 茂, 研究代表者：岡 顕）, 領域「グローバル南極学：大変化する氷床と地球環境の連鎖をつなぐ」, 研究課題「南極システムダイナミクスの数値モデリング」, 実施中
-令和 7-8 年度, 学術変革領域研究 (A), 公募研究, 研究代表者, 領域「マクロ沿岸海洋学：陸域から外洋におよぶ物質動態の統合的シミュレーション」, 研究課題「河川から海洋への栄養塩・炭素輸送が海洋炭素収支に与える影響の評価」, 実施中
+
+令和 7-8 年度, 学術変革領域研究 (A), 公募研究, 研究代表者, 領域「マクロ沿岸海洋学：陸域から外洋におよぶ物質動態の統合的シミュレーション」, 研究課題「河川から海洋への栄養塩・炭素輸送が海洋炭素収支に与える影響の評価」, 総額 3,900 千円, 実施中
 
 == 科学技術振興機構 戦略的創造研究推進事業
 
@@ -167,7 +173,9 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics durin
 令和 5-7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
 
 == 国際エメックスセンター 若手研究者活動支援制度
+
 令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円, 研究期間終了
+
 令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 実施中
 
 = 賞罰
@@ -177,6 +185,7 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics durin
 日本地球惑星科学連合 2016 年大会「学生優秀発表賞」
 
 = 招待講演・依頼講演
+
 日本地球惑星科学連合 2016 年大会
 日本地球惑星科学連合 2018 年大会
 日本地球惑星科学連合 2022 年大会
@@ -187,8 +196,11 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics durin
 日本地球惑星科学連合 2024 年大会
 
 = ジャーナルレフェリー
+
 Climate of the Past
 Communications Earth and Environment
 Geoscientific Model Development
 Geophysical Reserach Letters
-Nature Communications Progress in Earth and Planetary Science
+Nature Communications
+Paleoceanography and Paleoclimatology
+Progress in Earth and Planetary Science
