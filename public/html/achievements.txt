@@ -34,23 +34,23 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient ch
 
 == 国際学会
 
-Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Dec 16, 2014, San Francisco, USA, 2014 AGU Fall Meeting, poster.
+Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Dec 16, 2014, San Francisco, 2014 AGU Fall Meeting, poster.
 
-Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Jun 28, 2015, Prague, Czech Republic, 26th General Assembly of the IUGG, oral.
+Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Jun 28, 2015, Prague, 26th General Assembly of the IUGG, oral.
 
-Kobayashi, H., and A. Oka, Role of Southern Ocean in glacial atmospheric CO2 reduction, Jun 27, 2016, Yokohama, Japan, Goldschmidt2016, oral.
+Kobayashi, H., and A. Oka, Role of Southern Ocean in glacial atmospheric CO2 reduction, Jun 27, 2016, Yokohama, Goldschmidt2016, oral.
 
-Kobayashi, H., and A. Oka, Modeling of glacial ocean carbon cycle by focusing on the role of the Southern Ocean and carbonate compensation process, Aug 30, 2016, Utrecht, The Netherlands, 12th International Conference on Paleoceanography, poster.
+Kobayashi, H., and A. Oka, Modeling of glacial ocean carbon cycle by focusing on the role of the Southern Ocean and carbonate compensation process, Aug 30, 2016, Utrecht, 12th International Conference on Paleoceanography, poster.
 
-Kobayashi, H., Role of carbon cycle in glacial reduction of atmospheric carbon dioxide concentration, Sept 6, 2018, Cambridge, England, OC3 workshop, poster.
+Kobayashi, H., Role of carbon cycle in glacial reduction of atmospheric carbon dioxide concentration, Sept 6, 2018, Cambridge, OC3 workshop, poster.
 
-Kobayashi, H., and A. Oka, Simulations of glacial ocean carbon cycle with a parameterization of brine rejection, Dec 3, 2018, Tachikawa, Japan, 1st GRAntarctic International Symposium, oral.
+Kobayashi, H., and A. Oka, Simulations of glacial ocean carbon cycle with a parameterization of brine rejection, Dec 3, 2018, Tachikawa, 1st GRAntarctic International Symposium, oral.
 
-Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Apr 8, 2019, Vienna, Austria, EGU General Assembly, poster.
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Apr 8, 2019, Vienna, EGU General Assembly, poster.
 
-Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Sept 2, 2019, Sydney, Australia, 13th International Conference on Paleoceanography, poster.
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Sept 2, 2019, Sydney, 13th International Conference on Paleoceanography, poster.
 
-Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Feb 20, 2020, San Diego, USA, Ocean Sciences Meeting, oral.
+Kobayashi, H., and A. Oka, Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Feb 20, 2020, San Diego, Ocean Sciences Meeting, oral.
 
 Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi, Glacial ocean carbon cycle changes caused by enhanced stratification in the Southern Ocean and iron fertilization from glaciogenic dust, Jul 12, 2020, virtual, JpGU-AGU Joint Meeting 2020, poster.
 
@@ -72,7 +72,9 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Carbon isotope modeling implicati
 
 Kobayashi, H., Challenging the marine-centric view of the Late Pleistocene carbon cycle, Aug 27, 2024, Ginowan, EPPC Workshop 2024 ~Insight from Snowball into paleo and modern~, oral.
 
-Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics during the last glacial period: comparative analysis of the MIROC4m model and proxies, Dec 13, 2024, Wasington, D.C., USA, 2024 AGU Fall Meeting, poster.
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics during the last glacial period: comparative analysis of the MIROC4m model and proxies, Dec 13, 2024, Wasington, D.C., 2024 AGU Fall Meeting, poster.
+
+Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi,  Marine carbon cycle responses across interglacial periods: Insights from past warm climates, Jul 24, 2025, Busan, Busan IAMAS-IACS-IAPSO Joint Assembly, oral.
 
 == 国内学会
 
@@ -176,7 +178,9 @@ Kobayashi, H., A. Oka, T. Obase, A. Abe-Ouchi, Ocean carbon cycle dynamics durin
 
 令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円, 研究期間終了
 
-令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 実施中
+令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 研究期間終了
+
+令和 7 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その３）」, 総額 1,500 千円, 実施中
 
 = 賞罰
 
