@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* -------------------------------------------------- */
-/*  全体リセット (ベーシック版) */
+/*  全体リセット */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,13 +34,11 @@ body {
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
-  font-family: 
-    -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial,
-    "Noto Sans JP", "Yu Gothic Medium",
-    "Hiragino Kaku Gothic ProN", "Meiryo",
-    sans-serif;
   -webkit-text-size-adjust: 100%;
+  font-family: 'Aptos', 'M PLUS 1', 'Kosugi Maru', -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans JP", "Yu Gothic Medium",
+    "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
   background-image: url(../img/back_green.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -195,7 +193,7 @@ h5, h6 {
 }
 
 /* -------------------------------------------------- */
-/*  論文リストなど */
+/*  論文リスト */
 #contents .paper {
   margin-left: 20pt;
   text-indent: -20pt;
