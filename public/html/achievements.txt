@@ -76,7 +76,10 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Ocean carbon cycle dynamics d
 
 Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Marine carbon cycle responses across interglacial periods: Insights from past warm climates, Jul 24, 2025, Busan, Busan IAMAS-IACS-IAPSO Joint Assembly, oral.
 
-Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Different responses of the ocean carbon cycle during two past interglacials and glacial terminations, Sep 1, 2025, Bengaluru, 15th International Conference on Paleoceanography, poster.
+Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Different responses of the ocean carbon cycle during two past interglacials and glacial terminations, Sept 1, 2025, Bengaluru, 15th International Conference on Paleoceanography, poster.
+
+Kobayashi, H., Modeling the ocean carbon cycle across the Last Glacial Maximum and deglaciation: the role of Southern Ocean stratification and carbonate sedimentation, Sept 26, 2025, virtual, PMIP WINGS, oral.
+
 
 == 国内学会
 
@@ -156,7 +159,15 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Different responses of the oc
 
 小林 英貴、千年を超える過渡的な海洋炭素循環の変化の理解、2025年2月27日、柏、令和 6 年度大気海洋研究所共同利用研究集会・海洋のカーボンとバイオスフィアの相互作用、口頭．
 
-小林 英貴、横畠 徳太、Keith Rodgers、Multi-Centennial Evolution of Ocean Biogeochemistry Under Extended SSP Simulations、2025年5月28日、幕張、日本地球惑星科学連合 2025 年大会、ポスター．
+小林 英貴、横畠 徳太、Keith Rodgers、Multi-centennial evolution of ocean biogeochemistry under extended SSP simulations、2025年5月28日、幕張、日本地球惑星科学連合 2025 年大会、ポスター．
+
+小林 英貴、海洋炭素循環における河川の役割：栄養塩・炭素輸送の影響を探る、2025年9月21日、函館、沿岸海洋シンポジウム、口頭．
+
+小林 英貴、岡 顕、小長谷 貴志、阿部彩子、過去二つの退氷期における AMOC と大気中 CO2 濃度の変化の関係、2025年9月22日、函館、2025 年度日本海洋学会秋季大会、口頭．
+
+小林 英貴、岡 顕、小長谷 貴志、阿部彩子、Modeling the link between AMOC and atmospheric CO2 during the last two deglaciations、2025年9月30日、軽井沢、南極沿岸堆積物を用いた Subglacial discharge 指標の開発と過去の融解イベントの復元方法に関するワークショップ、口頭．
+
+小林 英貴、横畠 徳太、Keith Rodgers、Multi-Centennial ocean biogeochemical and water mass responses to extended Shared Socioeconomic Pathways simulated by the MIROC-ES2L、2025年10月1日、東京、水塊物質循環ワークショップ、口頭．
 
 = 競争的研究資金等
 
