@@ -1,6 +1,6 @@
-﻿= 学術論文
+﻿# 学術論文
 
-== 原著論文(英文、査読あり)
+## 原著論文(英文、査読あり)
 
 Kobayashi, H., A. Abe-Ouchi, and A. Oka (2015): Role of Southern Ocean stratification in glacial atmospheric CO2 reduction evaluated by a three-dimensional ocean general circulation model, Paleoceanography, 30(9), 1202-1216. https://doi.org/10.1002/2015PA002786
 
@@ -14,25 +14,25 @@ Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231P
 
 Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769-787. https://doi.org/10.5194/cp-20-769-2024
 
-== 原著論文(和文、査読あり)
+## 原著論文(和文、査読あり)
 
-== 総説(英文、査読あり)
+## 総説(英文、査読あり)
 
-== 総説(和文、査読あり)
+## 総説(和文、査読あり)
 
 小林英貴, 岡顕 (2023): 氷期の海洋炭素循環シミュレーション, 地球化学. 57(2), 205-223. https://doi.org/10.14934/chikyukagaku.57.205
 
-== 編著書（英文）
+## 編著書（英文）
 
-== 編著書（和文）
+## 編著書（和文）
 
-== その他の著作(英文)
+## その他の著作(英文)
 
-== その他の著作(和文)
+## その他の著作(和文)
 
-= 学会発表
+# 学会発表
 
-== 国際学会
+## 国際学会
 
 Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmospheric CO2 reduction, Dec 16, 2014, San Francisco, 2014 AGU Fall Meeting, poster.
 
@@ -81,7 +81,7 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi, Different responses of the oc
 Kobayashi, H., Modeling the ocean carbon cycle across the Last Glacial Maximum and deglaciation: the role of Southern Ocean stratification and carbonate sedimentation, Sept 26, 2025, virtual, PMIP WINGS, oral.
 
 
-== 国内学会
+## 国内学会
 
 小林英貴、岡顕、氷期の海洋炭素循環に関する数値シミュレーション、2013年9月18日、札幌、2013年度海洋学会秋季大会、口頭．
 
@@ -169,9 +169,9 @@ Kobayashi, H., Modeling the ocean carbon cycle across the Last Glacial Maximum a
 
 小林 英貴、横畠 徳太、Keith Rodgers、Multi-Centennial ocean biogeochemical and water mass responses to extended Shared Socioeconomic Pathways simulated by the MIROC-ES2L、2025年10月1日、東京、水塊物質循環ワークショップ、口頭．
 
-= 競争的研究資金等
+# 競争的研究資金等
 
-== 日本学術振興会 科学研究費助成事業
+## 日本学術振興会 科学研究費助成事業
 
 令和 3-5 年度, 若手研究, 研究代表者, 研究課題「海洋炭素循環の氷期における変動メカニズムに関する研究」, 総額 4,030 千円, 研究期間終了
 
@@ -181,45 +181,74 @@ Kobayashi, H., Modeling the ocean carbon cycle across the Last Glacial Maximum a
 
 令和 7-8 年度, 学術変革領域研究 (A), 公募研究, 研究代表者, 領域「マクロ沿岸海洋学：陸域から外洋におよぶ物質動態の統合的シミュレーション」, 研究課題「河川から海洋への栄養塩・炭素輸送が海洋炭素収支に与える影響の評価」, 総額 3,900 千円, 実施中
 
-== 科学技術振興機構 戦略的創造研究推進事業
+## 科学技術振興機構 戦略的創造研究推進事業
 
-令和 5-8 年度, さきがけ, 領域「海洋バイオスフィア・気候の相互作用解明と炭素循環操舵」, 研究代表者, 研究課題「千年を超える過渡的な海洋炭素循環の変化の理解」, 総額 28,100 千円, 実施中
+- 令和 5-8 年度, さきがけ, 領域「海洋バイオスフィア・気候の相互作用解明と炭素循環操舵」, 研究代表者, 研究課題「千年を超える過渡的な海洋炭素循環の変化の理解」, 総額 28,100 千円, 実施中
 
-== 環境再生保全機構 環境研究総合推進費
+## 環境再生保全機構 環境研究総合推進費
 
-令和 5-7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
+- 令和 5-7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
 
-== 国際エメックスセンター 若手研究者活動支援制度
+## 国際エメックスセンター 若手研究者活動支援制度
 
-令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円, 研究期間終了
+- 令和 5 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして」, 総額 988 千円, 研究期間終了
 
-令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 研究期間終了
+- 令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 研究期間終了
 
-令和 7 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その３）」, 総額 1,500 千円, 実施中
+- 令和 7 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その３）」, 総額 1,500 千円, 実施中
 
-= 賞罰
+# 賞罰
+- 日本地球惑星科学連合 2015 年大会「学生優秀発表賞」
+- 日本海洋学会 2015 年度秋季大会「若手ベストポスター賞」
+- 日本地球惑星科学連合 2016 年大会「学生優秀発表賞」
 
-日本地球惑星科学連合 2015 年大会「学生優秀発表賞」
-日本海洋学会 2015 年度秋季大会「若手ベストポスター賞」
-日本地球惑星科学連合 2016 年大会「学生優秀発表賞」
+# 招待講演・依頼講演
+- 日本地球惑星科学連合 2016 年大会
+- 日本地球惑星科学連合 2018 年大会
+- 日本地球惑星科学連合 2022 年大会
+- 2022 年度日本地球化学会第 69 回年会
+- 2022 年度第 8 回地球環境史学会年会
+- 令和 4 年度大気海洋研究所共同利用・古気候研究におけるプロキシとモデルの融合: 温暖期の気候変動
+- 第一回 極域研究集会「新第三紀における両極の気候変動と生態系」
+- 日本地球惑星科学連合 2024 年大会
 
-= 招待講演・依頼講演
+# 担当経験のある科目（授業）
+- 環境科学入門（学部生向け・オムニバス）
+- 海洋科学（学部生向け・分担）
+- 地球化学（学部生向け・分担）
+- 海洋科学実習（学部生向け・野外実習）
+- 環境科学特論A（大学院生向け・オムニバス）
 
-日本地球惑星科学連合 2016 年大会
-日本地球惑星科学連合 2018 年大会
-日本地球惑星科学連合 2022 年大会
-2022 年度日本地球化学会第 69 回年会
-2022 年度第 8 回地球環境史学会年会
-令和 4 年度大気海洋研究所共同利用・古気候研究におけるプロキシとモデルの融合: 温暖期の気候変動
-第一回 極域研究集会「新第三紀における両極の気候変動と生態系」
-日本地球惑星科学連合 2024 年大会
+# 所属学協会
+- 日本海洋学会
+- 地球惑星科学連合
+- 地球環境史学会
 
-= ジャーナルレフェリー
+# 学術貢献活動
+- 2021--2025 年度「海を越えた本読み会（海洋物質循環勉強会）」幹事
+- 2022 年度日本海洋学会秋季大会「海盆スケールの物質循環」コンビーナー
+- 2024 年度日本海洋学会秋季大会「海洋生物地球化学循環と気候変動の相互作用」コンビーナー
+- 日本地球惑星科学連合 2025 年大会「Exploring Variability and Changes in Ocean Biogeochemical Cycles」コンビーナー
+- 2025 年度日本海洋学会秋季大会「海洋のカーボンとバイオスフィアの相互作用」コンビーナー
 
-Climate of the Past
-Communications Earth and Environment
-Geoscientific Model Development
-Geophysical Reserach Letters
-Nature Communications
-Paleoceanography and Paleoclimatology
-Progress in Earth and Planetary Science
+# ジャーナルレフェリー
+- Climate of the Past
+- Communications Earth and Environment
+- Geoscientific Model Development
+- Geophysical Reserach Letters
+- Nature Communications
+- Nature Geoscience
+- Paleoceanography and Paleoclimatology
+- Progress in Earth and Planetary Science
+- Scientific Reports
+
+# 社会貢献活動
+- 兵庫県立兵庫高校「東京みらいフロンティアツアー」受け入れ (Aug 5, 2014)
+- 日本海洋学会若手集会助成「若手武者修行セミナー」採択 (Dec 19-20, 2018)
+- 新学術領域研究『南極の海と氷床』「H31 年度若手国際学会派遣事業」採択
+- 日本地球惑星科学連合 2019 年大会 新学術領域研究『南極の海と氷床』ブース内ミニセミナー幹事
+- 2022--2024 年度日本海学推進機構「富山湾の魅力体験親子教室」講師
+- 日本地球惑星科学連合 2025 年大会 学術変革領域研究 (A) 『グローバル南極学』ブース担当
+
+# メディア報道
+- アルスの礎 ～富山大学 知の冒険者たち～
