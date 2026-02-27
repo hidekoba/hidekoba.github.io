@@ -14,6 +14,9 @@ Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231P
 
 Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769-787. https://doi.org/10.5194/cp-20-769-2024
 
+Kobayashi, H., T. Yokohata, A. Yamamoto, T. Hajima, H. Tatebe, A. Oka, and K. B. Rodgers (2026, in discussion): Multi-centennial ocean biogeochemical responses to extended Shared Socioeconomic Pathways, Biogeosciences Discuss. https://doi.org/10.5194/egusphere-2026-120
+
+
 ## 原著論文(和文、査読あり)
 
 ## 総説(英文、査読あり)
@@ -29,6 +32,7 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient ch
 ## その他の著作(英文)
 
 ## その他の著作(和文)
+小林英貴 (2026): 海洋炭素循環における河川の役割：栄養塩・炭素輸送の役割とモデル開発の展望, 沿岸海洋研究, 64(1), xxxx--xxxx.
 
 # 学会発表
 
