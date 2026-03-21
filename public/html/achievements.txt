@@ -2,17 +2,17 @@
 
 ## 原著論文(英文、査読あり)
 
-Kobayashi, H., A. Abe-Ouchi, and A. Oka (2015): Role of Southern Ocean stratification in glacial atmospheric CO2 reduction evaluated by a three-dimensional ocean general circulation model, Paleoceanography, 30(9), 1202-1216. https://doi.org/10.1002/2015PA002786
+Kobayashi, H., A. Abe-Ouchi, and A. Oka (2015): Role of Southern Ocean stratification in glacial atmospheric CO2 reduction evaluated by a three-dimensional ocean general circulation model, Paleoceanography, 30(9), 1202–1216. https://doi.org/10.1002/2015PA002786
 
-Kobayashi, H., and A. Oka (2018): Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Paleoceanography and Paleoclimatology, 33(11), 1206-1229. https://doi.org/10.1029/2018PA003360
+Kobayashi, H., and A. Oka (2018): Response of atmospheric pCO2 to glacial changes in the Southern Ocean amplified by carbonate compensation, Paleoceanography and Paleoclimatology, 33(11), 1206–1229. https://doi.org/10.1029/2018PA003360
 
 Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi (2021): Glacial carbon cycle changes by Southern Ocean processes with sedimentary amplification, Science Advances, 7(35), eabg7723. https://doi.org/10.1126/sciadv.abg7723
 
 Lhardy, F. et al. [H. Kobayashi listed in 11th author] (2021): A first intercomparison of the simulated LGM carbon results within PMIP-carbon: role of the ocean boundary conditions, Paleoceanography and Paleoclimatology, 36(10), e2021PA004302. https://doi.org/10.1029/2021PA004302
 
-Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013-2033. https://doi.org/10.5194/gmd-15-2013-2022
+Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013–2033. https://doi.org/10.5194/gmd-15-2013-2022
 
-Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769-787. https://doi.org/10.5194/cp-20-769-2024
+Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769–787. https://doi.org/10.5194/cp-20-769-2024
 
 Kobayashi, H., T. Yokohata, A. Yamamoto, T. Hajima, H. Tatebe, A. Oka, and K. B. Rodgers (2026, in discussion): Multi-centennial ocean biogeochemical responses to extended Shared Socioeconomic Pathways, Biogeosciences Discuss. https://doi.org/10.5194/egusphere-2026-120
 
@@ -24,7 +24,7 @@ Kobayashi, H., T. Obase, A. Oka, and A. Abe-Ouchi (submitted): Contrasting chang
 
 ## 総説(和文、査読あり)
 
-小林英貴, 岡顕 (2023): 氷期の海洋炭素循環シミュレーション, 地球化学. 57(2), 205-223. https://doi.org/10.14934/chikyukagaku.57.205
+小林英貴, 岡顕 (2023): 氷期の海洋炭素循環シミュレーション, 地球化学. 57(2), 205–223. https://doi.org/10.14934/chikyukagaku.57.205
 
 ## 編著書（英文）
 
@@ -183,21 +183,21 @@ Kobayashi, H., T. Obase, A. Oka, and A. Abe-Ouchi, Contrasting AMOC–carbon cyc
 
 ## 日本学術振興会 科学研究費助成事業
 
-令和 3-5 年度, 若手研究, 研究代表者, 研究課題「海洋炭素循環の氷期における変動メカニズムに関する研究」, 総額 4,030 千円, 研究期間終了
+令和 3–5 年度, 若手研究, 研究代表者, 研究課題「海洋炭素循環の氷期における変動メカニズムに関する研究」, 総額 4,030 千円, 研究期間終了
 
-令和 6-9 年度, 基盤研究 (B), 研究分担者（研究代表者：張 勁）, 研究課題「黒潮流域で乱流混合によって有光層に供給される栄養塩の変遷過程と生物生産への寄与」, 実施中
+令和 6–9 年度, 基盤研究 (B), 研究分担者（研究代表者：張 勁）, 研究課題「黒潮流域で乱流混合によって有光層に供給される栄養塩の変遷過程と生物生産への寄与」, 実施中
 
-令和 6-10 年度, 学術変革領域研究 (A), 研究分担者（領域代表者：青木 茂, 研究代表者：岡 顕）, 領域「グローバル南極学：大変化する氷床と地球環境の連鎖をつなぐ」, 研究課題「南極システムダイナミクスの数値モデリング」, 実施中
+令和 6–10 年度, 学術変革領域研究 (A), 研究分担者（領域代表者：青木 茂, 研究代表者：岡 顕）, 領域「グローバル南極学：大変化する氷床と地球環境の連鎖をつなぐ」, 研究課題「南極システムダイナミクスの数値モデリング」, 実施中
 
-令和 7-8 年度, 学術変革領域研究 (A), 公募研究, 研究代表者, 領域「マクロ沿岸海洋学：陸域から外洋におよぶ物質動態の統合的シミュレーション」, 研究課題「河川から海洋への栄養塩・炭素輸送が海洋炭素収支に与える影響の評価」, 総額 3,900 千円, 実施中
+令和 7–8 年度, 学術変革領域研究 (A), 公募研究, 研究代表者, 領域「マクロ沿岸海洋学：陸域から外洋におよぶ物質動態の統合的シミュレーション」, 研究課題「河川から海洋への栄養塩・炭素輸送が海洋炭素収支に与える影響の評価」, 総額 3,900 千円, 実施中
 
 ## 科学技術振興機構 戦略的創造研究推進事業
 
-- 令和 5-8 年度, さきがけ, 領域「海洋バイオスフィア・気候の相互作用解明と炭素循環操舵」, 研究代表者, 研究課題「千年を超える過渡的な海洋炭素循環の変化の理解」, 総額 28,100 千円, 実施中
+- 令和 5–8 年度, さきがけ, 領域「海洋バイオスフィア・気候の相互作用解明と炭素循環操舵」, 研究代表者, 研究課題「千年を超える過渡的な海洋炭素循環の変化の理解」, 総額 28,100 千円, 実施中
 
 ## 環境再生保全機構 環境研究総合推進費
 
-- 令和 5-7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 実施中
+- 令和 5–7 年度, 戦略的研究開発 (II), 研究分担者（研究代表者：岡顕）, 研究課題「大西洋子午面循環変化の物理モデル実験」, 研究期間終了
 
 ## 国際エメックスセンター 若手研究者活動支援制度
 
@@ -205,7 +205,7 @@ Kobayashi, H., T. Obase, A. Oka, and A. Abe-Ouchi, Contrasting AMOC–carbon cyc
 
 - 令和 6 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その２）」, 総額 1,500 千円, 研究期間終了
 
-- 令和 7 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その３）」, 総額 1,500 千円, 実施中
+- 令和 7 年度, 若手研究者活動支援制度, 研究代表者, 研究課題「炭素収支の解明を主とした沿岸域の炭素・栄養塩の動態把握：富山湾をモデルケースとして（その３）」, 総額 1,500 千円, 研究期間終了
 
 # 賞罰
 - 日本地球惑星科学連合 2015 年大会「学生優秀発表賞」
@@ -235,7 +235,7 @@ Kobayashi, H., T. Obase, A. Oka, and A. Abe-Ouchi, Contrasting AMOC–carbon cyc
 - 地球環境史学会
 
 # 学術貢献活動
-- 2021--2025 年度「海を越えた本読み会（海洋物質循環勉強会）」幹事
+- 2021–2025 年度「海を越えた本読み会（海洋物質循環勉強会）」幹事
 - 2022 年度日本海洋学会秋季大会「海盆スケールの物質循環」コンビーナー
 - 2024 年度日本海洋学会秋季大会「海洋生物地球化学循環と気候変動の相互作用」コンビーナー
 - 日本地球惑星科学連合 2025 年大会「Exploring Variability and Changes in Ocean Biogeochemical Cycles」コンビーナー
@@ -254,10 +254,10 @@ Kobayashi, H., T. Obase, A. Oka, and A. Abe-Ouchi, Contrasting AMOC–carbon cyc
 
 # 社会貢献活動
 - 兵庫県立兵庫高校「東京みらいフロンティアツアー」受け入れ (Aug 5, 2014)
-- 日本海洋学会若手集会助成「若手武者修行セミナー」採択 (Dec 19-20, 2018)
+- 日本海洋学会若手集会助成「若手武者修行セミナー」採択 (Dec 19–20, 2018)
 - 新学術領域研究『南極の海と氷床』「H31 年度若手国際学会派遣事業」採択
 - 日本地球惑星科学連合 2019 年大会 新学術領域研究『南極の海と氷床』ブース内ミニセミナー幹事
-- 2022--2024 年度日本海学推進機構「富山湾の魅力体験親子教室」講師
+- 2022–2024 年度日本海学推進機構「富山湾の魅力体験親子教室」講師
 - 日本地球惑星科学連合 2025 年大会 学術変革領域研究 (A) 『グローバル南極学』ブース担当
 
 # メディア報道
