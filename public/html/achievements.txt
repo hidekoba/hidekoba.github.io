@@ -10,7 +10,7 @@ Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient ch
 
 Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013–2033. https://doi.org/10.5194/gmd-15-2013-2022
 
-Lhardy, F. et al. [H. Kobayashi listed in 11th author] (2021): A first intercomparison of the simulated LGM carbon results within PMIP-carbon: role of the ocean boundary conditions, Paleoceanography and Paleoclimatology, 36(10), e2021PA004302. https://doi.org/10.1029/2021PA004302
+Lhardy, F., N. Bouttes, D. M. Roche, A. Abe-Ouchi, Z. Chase, K. A. Crichton, T. Ilyina, R. Ivanovic, M. Jochum, M. Kageyama, H. Kobayashi, B. Liu, L. Menviel, J. Muglia, R. Nuterman, A. Oka, G. Vettoretti, and A. Yamamoto (2021): A first intercomparison of the simulated LGM carbon results within PMIP-carbon: role of the ocean boundary conditions, Paleoceanography and Paleoclimatology, 36(10), e2021PA004302. https://doi.org/10.1029/2021PA004302
 
 Kobayashi, H., A. Oka, A. Yamamoto, and A. Abe-Ouchi (2021): Glacial carbon cycle changes by Southern Ocean processes with sedimentary amplification, Science Advances, 7(35), eabg7723. https://doi.org/10.1126/sciadv.abg7723
 
