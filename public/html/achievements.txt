@@ -103,6 +103,8 @@ Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmo
 
 ## 国内学会
 
+小林 英貴、古気候海洋炭素循環モデリングから考える氷期–間氷期間の大気中二酸化炭素濃度変動メカニズム―過去二つの退氷期における大西洋子午面循環と大気中二酸化炭素濃度の変化の関係、2026年07月14日、札幌、アイスコア研究集会、口頭．
+
 小林 英貴、横畠 徳太、Keith Rodgers、Multi-Centennial ocean biogeochemical and water mass responses to extended Shared Socioeconomic Pathways simulated by the MIROC-ES2L、2025年10月1日、東京、水塊物質循環ワークショップ、口頭．
 
 小林 英貴、岡 顕、小長谷 貴志、阿部 彩子、Modeling the link between AMOC and atmospheric CO2 during the last two deglaciations、2025年9月30日、軽井沢、南極沿岸堆積物を用いた Subglacial discharge 指標の開発と過去の融解イベントの復元方法に関するワークショップ、口頭．
@@ -244,13 +246,6 @@ Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmo
 - 地球惑星科学連合
 - 地球環境史学会
 
-# 学術貢献活動
-- 2025 年度日本海洋学会秋季大会「海洋のカーボンとバイオスフィアの相互作用」コンビーナー
-- 日本地球惑星科学連合 2025 年大会「Exploring Variability and Changes in Ocean Biogeochemical Cycles」コンビーナー
-- 2024 年度日本海洋学会秋季大会「海洋生物地球化学循環と気候変動の相互作用」コンビーナー
-- 2022 年度日本海洋学会秋季大会「海盆スケールの物質循環」コンビーナー
-- 2021–2025 年度「海を越えた本読み会（海洋物質循環勉強会）」幹事
-
 # ジャーナルレフェリー
 - Climate of the Past
 - Communications Earth and Environment
@@ -261,6 +256,15 @@ Kobayashi, H., and A. Oka, Role of Southern Ocean stratification in glacial atmo
 - Paleoceanography and Paleoclimatology
 - Progress in Earth and Planetary Science
 - Scientific Reports
+
+# 学術貢献活動
+- 2026 年度日本海洋学会秋季大会「海洋のカーボンとバイオスフィアの相互作用」コンビーナー
+- 2026 年度アイスコア研究集会 若手会講師
+- 2025 年度日本海洋学会秋季大会「海洋のカーボンとバイオスフィアの相互作用」コンビーナー
+- 日本地球惑星科学連合 2025 年大会「Exploring Variability and Changes in Ocean Biogeochemical Cycles」コンビーナー
+- 2024 年度日本海洋学会秋季大会「海洋生物地球化学循環と気候変動の相互作用」コンビーナー
+- 2022 年度日本海洋学会秋季大会「海盆スケールの物質循環」コンビーナー
+- 2021–2025 年度「海を越えた本読み会（海洋物質循環勉強会）」幹事
 
 # 社会貢献活動
 - 日本地球惑星科学連合 2025 年大会 学術変革領域研究 (A) 『グローバル南極学』ブース担当
