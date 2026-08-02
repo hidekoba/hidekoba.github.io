@@ -3,34 +3,55 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Ocean carbon cycle, climate dynamics, and biogeochemical modeling research by Hidetaka Kobayashi.">
-  <meta name="keywords" content="climate dynamics, ocean physics, biogeochemistry, Hidetaka Kobayashi">
+  <meta name="description" content="海洋循環・炭素循環・気候変動・生物地球化学モデリングに関する小林英貴研究室の研究紹介。">
+  <meta name="keywords" content="海洋循環, 海洋炭素循環, 気候変動, 古気候, 生物地球化学, 数値モデル, 富山湾, Hidetaka Kobayashi">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Achievements | Hidetaka Kobayashi's Page</title>
+  <title>Research | Hidetaka Kobayashi's Page</title>
 
-  <!-- Google Fonts (M PLUS 1, Kosugi Maru) -->
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=Kosugi+Maru&display=swap&v=1" rel="stylesheet">
-
-  <!-- Base CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=Kosugi+Maru&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/base.css" media="screen">
+  <style>
+    .research-figure {
+      margin: 1.5rem 0 2rem;
+    }
+    .research-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .research-figure figcaption {
+      margin-top: 0.55rem;
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+    .source-note {
+      font-size: 0.88rem;
+    }
+    .reference-card {
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid #d8e4dc;
+      border-radius: 4px;
+      background: #f8fbf9;
+    }
+  </style>
 </head>
 
 <body>
 <div id="wrapper">
 
   <header id="header">
-    <h1></h1>
-    <!--
-    <img src="../../img/DSC_1225.jpg" alt="Portrait" style="border:solid 15px #edf9f0" align="left" width="150px">
-    -->
     <p class="logo">Hidetaka Kobayashi's Page</p>
-    <p class="description">Assistant Professor (Project), Faculty of Science, University of Toyama</p>
+    <p class="description">
+      Assistant Professor (Project), Faculty of Science, University of Toyama
+    </p>
   </header>
 
   <nav id="globalnavi" aria-label="Main Navigation">
     <ul>
       <li><a href="../../index.html">Home</a></li>
-      <li><a href="./research.html">Research</a></li>
+      <li><a href="./research.html" aria-current="page">Research</a></li>
       <li><a href="./achievements.html">Achievements</a></li>
       <li><a href="./member.html">Members</a></li>
       <li><a href="./book.html">Book</a></li>
@@ -40,154 +61,293 @@
 
   <main id="container">
     <section id="contents">
-      <p class="topic-path"><a href="../../index.html">Home</a> &gt; 研究 (Research)</p>
+      <p class="topic-path"><a href="../../index.html">Home</a> &gt; Research</p>
 
-      <h2>研究内容 / Research topic</h2>
+      <h2>研究内容 / Research</h2>
 
-      <h4>研究の概要 / Research Overview</h4>
+      <h3>研究目的 / Research Aim</h3>
+      <p>
+        地球規模の海洋循環・物質循環の形成メカニズムと、
+        古気候から将来気候までを含む気候変動の仕組みを、
+        コンピュータによる数値シミュレーションとデータ解析に基づいて理解することを目指しています。
+      </p>
+      <p lang="en">
+        We aim to understand the mechanisms that shape global ocean circulation,
+        biogeochemical cycles, and climate variability from the geological past to the future
+        through numerical simulations and data analysis.
+      </p>
+
+      <h3>なぜ海を研究するのか？ / Why Study the Ocean?</h3>
+      <p>
+        海洋は、熱・水・栄養塩・炭素を蓄え、地球規模で運ぶ巨大な貯蔵庫です。
+        深層海洋循環は数百年から千年規模で世界の海をつなぎ、
+        海洋生態系や地球の気候を支えています。
+        また、海洋は人間活動によって排出された二酸化炭素の重要な吸収源である一方、
+        その吸収は海洋酸性化などの環境変化とも密接に関係します。
+      </p>
+      <p lang="en">
+        The ocean is a vast reservoir that stores and transports heat, water, nutrients,
+        and carbon on a global scale. Deep-ocean circulation connects the world's oceans
+        over timescales of centuries to millennia and plays a fundamental role in sustaining
+        marine ecosystems and regulating Earth's climate. The ocean is also an important sink
+        for anthropogenic carbon dioxide, although this uptake is closely linked to environmental
+        changes such as ocean acidification.
+      </p>
+      <p>
+        海だけで地球環境が完結するわけではありません。
+        河川や地下水は陸から海へ栄養塩や炭素を運び、
+        氷床からの融解水は海水密度と海洋循環を変える可能性があります。
+        大気・海洋・陸域・氷床・生態系を一つのつながったシステムとして捉えることが重要です。
+      </p>
+      <p lang="en">
+        The ocean does not operate in isolation. Rivers and groundwater transport nutrients
+        and carbon from land to the sea, while meltwater from ice sheets may alter seawater
+        density and ocean circulation. It is therefore essential to view the atmosphere,
+        ocean, land, ice sheets, and ecosystems as an interconnected Earth system.
+      </p>
+
+      <figure class="research-figure">
+        <a href="https://svs.gsfc.nasa.gov/3658/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://svs.gsfc.nasa.gov/vis/a000000/a003600/a003658/thermohaline_conveyor.0900.jpg"
+            alt="北大西洋周辺の沈み込みと全球の熱塩循環を示すNASAの可視化"
+            loading="lazy">
+        </a>
+        <figcaption>
+          全球の熱塩循環（海洋深層大循環）の可視化。
+          出典：NASA/Goddard Space Flight Center Scientific Visualization Studio,
+          “The Thermohaline Circulation – The Great Ocean Conveyor Belt” (2009).
+          <a href="https://svs.gsfc.nasa.gov/3658/" target="_blank" rel="noopener noreferrer">原資料</a>
+        </figcaption>
+      </figure>
+
+      <figure class="research-figure">
+        <a href="https://science.nasa.gov/earth/earth-observatory/global-chlorophyll-4097/"
+           target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/4000/4097/S19972442003273_lrg.jpg?crop=faces%2Cfocalpoint&amp;fit=clip&amp;h=1024&amp;w=2048"
+            alt="SeaWiFS衛星観測による全球海洋の平均クロロフィル濃度"
+            loading="lazy">
+        </a>
+        <figcaption>
+          SeaWiFS 衛星観測による全球海洋の平均クロロフィル濃度。
+          クロロフィル濃度から、植物プランクトンの分布と海洋の生物生産を捉えることができます。
+          出典：NASA Earth Observatory / SeaWiFS Project,
+          “Global Chlorophyll” (2004).
+          <a href="https://science.nasa.gov/earth/earth-observatory/global-chlorophyll-4097/"
+             target="_blank" rel="noopener noreferrer">原資料</a>
+        </figcaption>
+      </figure>
+
+      <div class="reference-card">
+        <h4>気候変動の評価報告書</h4>
         <p>
-          気候状態の決定に重要な大気中二酸化炭素濃度の変化に対しては、
-          大気の60倍の炭素貯蔵をもつ海洋の物質循環の変化が大きな役割を果たします。
-          海洋の数値モデリングにより、過去に生じた大気中二酸化炭素濃度の変化の要因を調べることを通じて、
-          海洋の物質循環と気候との関わりの理解を深めたいと考えています。
-          </br>
-          Changes in atmospheric CO<sub>2</sub> concentration, which is crucial for determining climate states,
-          are strongly influenced by variations in oceanic carbon cycling,
-          as the ocean stores 60 times more carbon than the atmosphere.
-          Through ocean numerical modeling, I aim to investigate the factors behind past atmospheric CO<sub>2</sub> changes
-          and enhance our understanding of the interactions between oceanic material cycles and climate.
+          観測された温暖化、海洋による炭素吸収、将来の気候変化については、
+          IPCC 第6次評価報告書の図と評価結果も参照しています。
+          IPCC 図版は、図・凡例を改変せず、報告書名と図番号を明示する条件で
+          非営利目的の限定的な転載が認められています。
         </p>
+        <p class="source-note">
+          参考：
+          <a href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-1/"
+             target="_blank" rel="noopener noreferrer">
+            IPCC AR6 WGI Figure SPM.1 — History of global temperature change and causes of recent warming
+          </a><br>
+          <a href="https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-7/"
+             target="_blank" rel="noopener noreferrer">
+            IPCC AR6 WGI Figure SPM.7 — Cumulative anthropogenic CO₂ emissions taken up by land and ocean sinks
+          </a>
+        </p>
+      </div>
 
-      <h4>共同研究を含めた研究トピック / Research Topics</h4>
-
-      <ul>
-        <li>
-         海洋炭素循環と気候との関係 (Marine carbon cycle and its relationship to climate)
-        </li>
-        <li>
-         氷期の海洋炭素循環の変化 (Glacial changes in the ocean carbon cycle)
-        </li>
-        <li>
-         海洋の初期続成作用のモデリング (Modeling of early diagenesis in the ocean)
-        </li>
-        <li>
-         微量元素・海洋循環指標のモデリング (Modelling of the trace elements)
-        </li>
-        <li>
-         氷期-間氷期サイクルの気候遷移 (Climate transitions in glacial-interglacial cycles)
-        </li>
-        <li>
-         富山湾の炭素循環 (Carbon cycle in Toyama Bay)
-        </li>
-      </ul>
-      </p>
-
-      <!--
-      <iframe src="./research.pdf" width="100%" height="600px" style="border:none;">
-      This browser does not support PDFs. Please download the PDF to view it:
-      <a href="./research.pdf">Download PDF</a>
-      </iframe>
-      -->
-
-      </br>
-
-      <h2>数値実験</h2>
-      <h4>海洋大循環モデル</h4>
+      <h3>研究アプローチ / Approach</h3>
       <p>
-      CCSR Ocean Component Model
+        大気や海洋の流れ、物質循環、生態系の変化を表す方程式をプログラム化し、
+        気候・海洋モデルを構築します。
+        スーパーコンピュータによる数値実験と、観測・モデルデータの解析を組み合わせることで、
+        現在の気候を理解し、過去の気候を再現し、将来の変化を予測します。
       </p>
-      <ul><li>
-        <a href="http://ccsr.aori.u-tokyo.ac.jp/~hasumi/COCO/index.html">COCO Home</a>
-      </li></ul>
-      <h4>個人の生成物</h4>
+      <p lang="en">
+        We translate the equations governing atmospheric and oceanic motion,
+        biogeochemical cycles, and ecosystem processes into computer programs
+        and use them to build climate and ocean models. By combining numerical experiments
+        on supercomputers with analyses of observational and model data, we seek to understand
+        the present climate, reconstruct past climates, and project future changes.
+      </p>
+      <ul>
+        <li>気候・海洋・生物地球化学モデルの開発と改良<br><span lang="en">Development and improvement of climate, ocean, and biogeochemical models</span></li>
+        <li>スーパーコンピュータを用いた過去・現在・将来の気候システムを比較する数値実験<br><span lang="en">Numerical experiments comparing past, present, and future climate systems using supercomputers</span></li>
+        <li>観測データ・モデルデータの解析と可視化<br><span lang="en">Analysis and visualization of observational and model data</span></li>
+      </ul>
+
+      <h3>主な研究テーマ / Main Research Topics</h3>
+
+      <h4>1. 海洋循環と炭素循環 / Ocean Circulation and the Carbon Cycle</h4>
+      <ul>
+        <li>全球海洋深層循環と海洋炭素吸収の関係<br><span lang="en">Links between global deep-ocean circulation and ocean carbon uptake</span></li>
+        <li>氷床融解水が海洋循環・気候・物質循環へ与える影響<br><span lang="en">Impacts of ice-sheet meltwater on ocean circulation, climate, and biogeochemical cycles</span></li>
+        <li>海洋に取り込まれた炭素の輸送経路と最終的な行方<br><span lang="en">Transport pathways and the long-term fate of carbon taken up by the ocean</span></li>
+        <li>溶存有機物、微量元素、化学トレーサーの循環<br><span lang="en">Cycling of dissolved organic matter, trace elements, and chemical tracers</span></li>
+      </ul>
+
+      <h4>2. 気候変動と海洋生態系 / Climate Change and Marine Ecosystems</h4>
+      <ul>
+        <li>温暖化・酸性化・貧酸素化・生物生産の将来変化<br><span lang="en">Future changes in ocean warming, acidification, deoxygenation, and biological production</span></li>
+        <li>海洋生態系のティッピングポイントと極端現象<br><span lang="en">Tipping points and extreme events in marine ecosystems</span></li>
+        <li>植物プランクトン、栄養塩、炭素循環を表す生態系モデルの改良<br><span lang="en">Improvement of ecosystem models representing phytoplankton, nutrients, and carbon cycling</span></li>
+        <li>人間活動に伴う大気・河川からの栄養塩負荷の影響評価<br><span lang="en">Assessment of atmospheric and riverine nutrient inputs associated with human activities</span></li>
+      </ul>
+
+      <h4>3. 古気候・古海洋 / Paleoclimate and Paleoceanography</h4>
+      <ul>
+        <li>氷期－間氷期サイクルにおける大気中 CO<sub>2</sub> 変動の要因<br><span lang="en">Drivers of atmospheric CO<sub>2</sub> variations during glacial–interglacial cycles</span></li>
+        <li>過去の急激な気候変動と海洋深層循環の不安定性<br><span lang="en">Abrupt climate changes and instability of deep-ocean circulation in the past</span></li>
+        <li>海水準・地形・海峡の変化が海洋循環へ与える影響<br><span lang="en">Effects of changing sea level, topography, and gateways on ocean circulation</span></li>
+        <li>数千万年前の温暖気候を対象とした古気候モデリング<br><span lang="en">Paleoclimate modeling of warm climates tens of millions of years ago</span></li>
+      </ul>
+
+      <h4>4. 沿岸海洋・富山湾 / Coastal Oceans and Toyama Bay</h4>
+      <ul>
+        <li>富山湾と日本周辺海域の高解像度海洋モデルの構築<br><span lang="en">Development of high-resolution ocean models for Toyama Bay and the seas around Japan</span></li>
+        <li>河川・地下水から流入する栄養塩と炭素の役割<br><span lang="en">Roles of riverine and groundwater inputs of nutrients and carbon</span></li>
+        <li>沿岸域の富栄養化・酸性化・貧酸素化の評価<br><span lang="en">Assessment of eutrophication, acidification, and deoxygenation in coastal waters</span></li>
+        <li>海底堆積物過程と沿岸炭素収支のモデリング<br><span lang="en">Modeling of seafloor sediment processes and coastal carbon budgets</span></li>
+      </ul>
       <p>
-      Box モデル (<i>Toggweiler et al.</i> (1999) を参考)
+        これらを軸に、大気・海洋・陸域・氷床・生態系のつながりに関する
+        自発的な研究提案も歓迎します。
       </p>
-      <ul><li>
-        <a href="../../personal/packages/box/3box.tar.gz">3box</a>,
-        <a href="../../personal/packages/box/4box.tar.gz">4box</a>,
-        <a href="../../personal/packages/box/6box.tar.gz">6box</a>,
-        <a href="../../personal/packages/box/7box.tar.gz">7box</a>
-      </li></ul>
+      <p lang="en">
+        Student-led research proposals are also welcome, particularly those that explore
+        connections among the atmosphere, ocean, land, ice sheets, and ecosystems.
+      </p>
+
+      <h3>研究で身につく技能 / Skills</h3>
+      <ul>
+        <li>Unix Shell、Fortran、Python を用いたプログラミング<br><span lang="en">Programming with Unix Shell, Fortran, and Python</span></li>
+        <li>観測データ・モデルデータの解析と可視化<br><span lang="en">Analysis and visualization of observational and model data</span></li>
+        <li>数値モデルを用いた実験設計と結果の解釈<br><span lang="en">Experimental design and interpretation using numerical models</span></li>
+        <li>英語論文を読み、科学的に考える力<br><span lang="en">Ability to read scientific papers in English and think critically</span></li>
+        <li>研究発表、議論、文章作成の力<br><span lang="en">Scientific presentation, discussion, and writing skills</span></li>
+      </ul>
       <p>
-      海底堆積物モデル
+        データを扱い、自分で考え、課題を解決する力は、
+        大学院・研究職だけでなく、システム開発、データサイエンス、
+        気象・気候情報、エネルギー、環境コンサルティング、
+        金融・保険、公的機関など幅広い分野で役立ちます。
       </p>
-      <a href="../../personal/pdf/work/sediment-model.pdf">説明書</a>
+      <p lang="en">
+        The ability to work with data, think independently, and solve problems is valuable
+        not only in graduate study and research careers, but also in software development,
+        data science, weather and climate services, energy, environmental consulting,
+        finance and insurance, and public-sector organizations.
+      </p>
 
-    </br>
-
-    <h2>研究航海</h2>
-    <h4>乗船歴</h4>
-    </p>
-    <ol>
-      <li> R/V Hakuhomaru [KH12–5], October 7 – November 19 2012, Vancouver – San Diego – Tokyo
+      <h3>研究室での活動 / Laboratory Activities</h3>
       <ul>
-      <li> 太平洋海洋循環の深層オーバーターンと表層サブダクションの研究
-      </li>
-      </ul>
-      </li>
-      <li> R/V Hakuhomaru [KH19–6 Leg4], December 20 2019 – January 16 2020, Punta Arenas – Cape Town
-      <ul>
-      <li> ウェッデル海–南太平洋における海洋地球科学総合横断観測
-      </li>
-      </ul>
-      </li>
-      <li> R/V Nagasakimaru [NS23–111], May 12 – May 14 2023, Toyama
-      <ul>
-      <li> 富山湾の物理・化学・生物観測
-      </li>
-      </ul>
-      </li>
-      <li> R/V Nagasakimaru [NS25–152], Jun 6 – Jun 8 2025, Toyama
-      <ul>
-      <li> 富山湾の物理・化学・生物観測
-      </li>
-      </ul>
-      </li>
-    </ol>
-
-    </br>
-
-    <h2>セミナー / Seminar</h2>
-    <h4>富山大学理学部自然環境科学科 環境化学計測第 II 講座ゼミ</h4>
-      <ul>
-        <li>環境化学・海洋生物地球化学</li>
-        <li>毎週火曜日 14:45–18:00 開催</li>
-        <li>論文紹介, 研究紹介</li>
-      </ul>
-    <h4>東大大気海洋研 海洋物理学・気候力学セミナー</h4>
-      <ul>
-        <li>海洋物理学・海洋生物地球化学</li>
-        <li>毎週木曜日 09:00–12:00 開催</li>
-        <li>新着論文紹介やあるテーマに関するレビュー的な論文紹介, 自分の研究紹介など</li>
+        <li>研究室ミーティング：週 1 回。研究報告、議論、英語教科書の輪読<br><span lang="en">Weekly laboratory meeting: research updates, discussion, and reading an English-language textbook</span></li>
+        <li>環境化学計測第 II 講座合同ゼミ：週 1 回。論文紹介、研究紹介<br><span lang="en">Weekly joint seminar of Environmental Chemical Measurement Group II: paper reviews and research presentations</span></li>
+        <li>海洋観測、実習、研究室イベントへの参加<br><span lang="en">Participation in ocean observations, practical training, and laboratory events</span></li>
       </ul>
 
-    </br>
+      <h3>このような人におすすめです / Who May Enjoy This Laboratory?</h3>
+      <ul>
+        <li>海や気候の仕組みに興味があり、「なぜ？」を考えることが好きな人<br><span lang="en">Students who are interested in the ocean and climate and enjoy asking “why”</span></li>
+        <li>文献調査や試行錯誤を通じて、自ら学び進められる人<br><span lang="en">Students who can learn independently through literature searches and trial and error</span></li>
+        <li>データ解析やプログラミングに粘り強く取り組める人<br><span lang="en">Students who can work patiently on data analysis and programming</span></li>
+        <li>物理・数学を使って自然現象を理解しようとする意欲がある人<br><span lang="en">Students willing to use physics and mathematics to understand natural phenomena</span></li>
+      </ul>
 
-    <h2>勉強会 / Reading Club</h2>
-    <h4>海を越えた本読み会（海洋物質循環勉強会）</h4>
+      <h2>数値実験 / Numerical Experiments</h2>
+
+      <h3>海洋大循環モデル / Ocean General Circulation Model</h3>
+      <p>CCSR Ocean Component Model（海洋大循環モデル）</p>
       <ul>
-        <li>毎週金曜 08:00–09:00 開催</li>
-        <li>学生から若手中手研究者による海洋物質循環に関する教科書の輪読</li>
-        <li>教科書</li>
+        <li>
+          <a href="http://ccsr.aori.u-tokyo.ac.jp/~hasumi/COCO/index.html"
+             target="_blank" rel="noopener noreferrer">COCO Home</a>
+        </li>
+      </ul>
+
+      <h3>個人の生成物 / Personal Model Packages</h3>
+      <p>Box モデル（<i>Toggweiler et al.</i>, 1999 を参考）<br><span lang="en">Box models based on <i>Toggweiler et al.</i> (1999)</span></p>
       <ul>
+        <li>
+          <a href="https://github.com/hidekoba/ocean_box_model">github</a>
+        </li>
+      </ul>
+      <p>
+        海底堆積物モデル / Seafloor sediment model:
+        <a href="../../personal/pdf/work/sediment-model.pdf">説明書</a>
+      </p>
+
+      <h2>研究航海 / Research Cruises</h2>
+      <ol>
+        <li>
+          R/V Hakuhomaru [KH12–5], October 7 – November 19, 2012,
+          Vancouver – San Diego – Tokyo
+          <ul>
+            <li>太平洋海洋循環の深層オーバーターンと表層サブダクションの研究</li>
+          </ul>
+        </li>
+        <li>
+          R/V Hakuhomaru [KH19–6 Leg 4], December 20, 2019 – January 16, 2020,
+          Punta Arenas – Cape Town
+          <ul>
+            <li>ウェッデル海－南太平洋における海洋地球科学総合横断観測</li>
+          </ul>
+        </li>
+        <li>
+          R/V Nagasakimaru [NS23–111], May 12 – May 14, 2023, Toyama
+          <ul>
+            <li>富山湾の物理・化学・生物観測</li>
+          </ul>
+        </li>
+        <li>
+          R/V Nagasakimaru [NS25–152], June 6 – June 8, 2025, Toyama
+          <ul>
+            <li>富山湾の物理・化学・生物観測</li>
+          </ul>
+        </li>
+        <li>
+          R/V Nagasakimaru [NS25–171], June 6 – June 7, 2026, Toyama
+          <ul>
+            <li>富山湾の物理・化学・生物観測</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>セミナー・勉強会 / Seminars and Reading Clubs</h2>
+
+      <h3>環境化学計測第 II 講座ゼミ / Group II Seminar</h3>
+      <ul>
+        <li>環境化学・海洋生物地球化学<br><span lang="en">Environmental chemistry and marine biogeochemistry</span></li>
+        <li>論文紹介、研究紹介、議論<br><span lang="en">Paper reviews, research presentations, and discussion</span></li>
+      </ul>
+
+      <h3>海を越えた本読み会（海洋物質循環勉強会） / Ocean Biogeochemistry Reading Club</h3>
+      <ul>
+        <li>学生から若手・中堅研究者による海洋物質循環の教科書輪読<br><span lang="en">Textbook reading on marine biogeochemistry by students and early- to mid-career researchers</span></li>
         <li>2021: Emerson and Hedges (2008)</li>
         <li>2022–2023: Emerson and Hamme (2022)</li>
         <li>2024–: Sarmiento and Gruber (2006)</li>
       </ul>
-      </ul>
-    <h4>研究室内本読み会</h4>
-      <ul>
-        <li>毎週金曜 14:00–l6:00 開催</li>
-        <li>教科書</li>
-      <ul>
-        <li>2024–: Williams and Follws (2008)</li>
-      </ul>
-      </ul>
-      </p>
 
-      </br>
+      <h3>研究室内本読み会 / Laboratory Reading Club</h3>
+      <ul>
+        <li>2024–: Williams and Follows (2008)</li>
+      </ul>
 
+      <h2>連絡先 / Contact</h2>
+      <address>
+        小林 英貴 / Hidetaka Kobayashi<br>
+        富山大学 理学科 自然環境科学プログラム<br>
+        <span lang="en">Natural Environmental Science Program, School of Science, University of Toyama</span><br>
+        環境化学計測第 II 講座 / <span lang="en">Environmental Chemical Measurement Group II</span><br>
+        居室：A417 / 学生部屋：B331<br>
+        <span lang="en">Office: A417 / Student Room: B331</span><br>
+        Email: <a href="mailto:hidekoba@sci.u-toyama.ac.jp">hidekoba@sci.u-toyama.ac.jp</a>
+      </address>
     </section>
   </main>
 
@@ -196,10 +356,15 @@
       <small>
         <script>
           const day = new Date(document.lastModified);
-          document.write("Last Update: " + day.getFullYear() + "/" + (day.getMonth() + 1) + "/" + day.getDate());
+          document.write(
+            "Last Update: " +
+            day.getFullYear() + "/" +
+            (day.getMonth() + 1) + "/" +
+            day.getDate()
+          );
         </script>
         <br>
-        Since: 2011/09/01 <br>
+        Since: 2011/09/01<br>
         Copyright &copy; Hidetaka Kobayashi. All Rights Reserved.
       </small>
     </p>
