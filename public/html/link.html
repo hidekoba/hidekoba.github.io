@@ -1,460 +1,1267 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="研究機関・データベース・学術誌などへのリンク集。">
-  <meta name="keywords" content="Links, 海洋学, 気候科学, Hidetaka Kobayashi">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Links | Hidetaka Kobayashi's Page</title>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="研究機関、研究データ、学術誌、学会・研究組織など、海洋・気候研究に関連するリンク集です。" name="description"/>
+  <meta content="海洋学, 気候科学, 研究機関, データベース, 学術誌, 学会, リンク集, 小林英貴, 富山大学" name="keywords"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   リンク / Links｜小林英貴・富山大学
+  </title>
   <!-- Google Fonts (M PLUS 1, Kosugi Maru) -->
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=Kosugi+Maru&display=swap&v=1" rel="stylesheet">
-
   <!-- Base CSS -->
-  <link rel="stylesheet" href="../../css/base.css" media="screen">
-</head>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="../../css/base.css" media="screen" rel="stylesheet"/>
+  <style>
+   .resource-intro {
+      margin-bottom: 2rem;
+    }
 
-<body>
-<div id="wrapper">
+    .resource-intro .outputs-lead span[lang="en"] {
+      display: block;
+      margin-top: 0.45rem;
+    }
 
-  <header id="header">
-    <h1 class="logo">Hidetaka Kobayashi's Page</h1>
-    <p class="description">
-      Assistant Professor (Project), Faculty of Science, University of Toyama
-    </p>
-  </header>
+    .resource-section {
+      margin-top: 2.6rem;
+    }
 
-  <nav id="globalnavi" aria-label="メインナビゲーション / Main Navigation">
+    .resource-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .resource-card {
+      padding: 1.2rem;
+      background: #fff;
+      border: 1px solid #d7e2e6;
+      border-radius: 8px;
+    }
+
+    .resource-card h3 {
+      margin-top: 0;
+    }
+
+    .resource-card ul {
+      margin-bottom: 0;
+    }
+
+    .resource-card li + li {
+      margin-top: 0.55rem;
+    }
+
+    .table-wrap {
+      margin-top: 1rem;
+      overflow-x: auto;
+      background: #fff;
+      border: 1px solid #d7e2e6;
+      border-radius: 8px;
+    }
+
+    .resource-table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      border: 0;
+    }
+
+    .resource-table th,
+    .resource-table td {
+      padding: 0.75rem 0.85rem;
+      text-align: left;
+      vertical-align: top;
+      border: 0;
+      border-bottom: 1px solid #e1e9ec;
+    }
+
+    .resource-table th {
+      background: #f1f6f7;
+      color: #294d59;
+      font-weight: 700;
+    }
+
+    .resource-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .reference-list {
+      margin: 0;
+      padding-left: 1.35rem;
+    }
+
+    .reference-list li + li {
+      margin-top: 0.65rem;
+    }
+
+    @media (max-width: 720px) {
+      .resource-card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <div id="wrapper">
+   <header class="site-header" id="header">
+    <div class="header-copy">
+     <p class="eyebrow">
+      海洋炭素循環 / Ocean Carbon Cycle,
+      気候力学 / Climate Dynamics,
+      古気候・古海洋学 / Paleoceanography and Paleoclimatology,
+      数値モデリング / Numerical Modeling
+     </p>
+     <h1 class="logo">
+      小林 英貴
+      <span lang="en">
+       Hidetaka Kobayashi
+      </span>
+     </h1>
+     <p class="description">
+      富山大学 学術研究部理学系 特命助教
+      <br/>
+      <span lang="en">
+       Assistant Professor (Project), Faculty of Science, University of Toyama
+      </span>
+     </p>
+    </div>
+   </header>
+   <nav aria-label="メインナビゲーション / Main Navigation" id="globalnavi">
     <ul>
-      <li><a href="../../index.html"><span class="nav-en" lang="en">Home</span><span class="nav-ja">ホーム</span></a></li>
-      <li><a href="./research.html"><span class="nav-en" lang="en">Research</span><span class="nav-ja">研究</span></a></li>
-      <li><a href="./achievements.html"><span class="nav-en" lang="en">Publications</span><span class="nav-ja">業績</span></a></li>
-      <li><a href="./member.html"><span class="nav-en" lang="en">Members</span><span class="nav-ja">メンバー</span></a></li>
-      <li><a href="./book.html"><span class="nav-en" lang="en">References</span><span class="nav-ja">文献</span></a></li>
-      <li><a href="./link.html" aria-current="page"><span class="nav-en" lang="en">Links</span><span class="nav-ja">リンク</span></a></li>
+     <li>
+      <a href="../../index.html">
+       <span class="nav-en" lang="en">
+        Home
+       </span>
+       <span class="nav-ja">
+        ホーム
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./research.html">
+       <span class="nav-en" lang="en">
+        Research
+       </span>
+       <span class="nav-ja">
+        研究
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./achievements.html">
+       <span class="nav-en" lang="en">
+        Publications
+       </span>
+       <span class="nav-ja">
+        業績
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./member.html">
+       <span class="nav-en" lang="en">
+        Members
+       </span>
+       <span class="nav-ja">
+        メンバー
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./book.html">
+       <span class="nav-en" lang="en">
+        References
+       </span>
+       <span class="nav-ja">
+        文献
+       </span>
+      </a>
+     </li>
+     <li>
+      <a aria-current="page" href="./link.html">
+       <span class="nav-en" lang="en">
+        Links
+       </span>
+       <span class="nav-ja">
+        リンク
+       </span>
+      </a>
+     </li>
     </ul>
-  </nav>
-
-  <main id="container">
+   </nav>
+   <main id="container">
     <section id="contents">
-      <p class="topic-path"><a href="../../index.html">Home</a> &gt; Links</p>
-
-      <h2>リンク / Links</h2>
-
-      <h4>大学・研究所</h4>
+     <section aria-labelledby="links-title" class="outputs-intro resource-intro">
+      <p class="section-label">
+       RESEARCH LINKS
+      </p>
+      <h2 id="links-title">
+       リンク / Links
+      </h2>
+      <p class="outputs-lead">
+       研究機関、研究データ、学術誌、学会・研究組織など、海洋・気候研究に関連するリンクをまとめています。
+       <span lang="en">
+        Links to research institutions, datasets, journals, academic societies, and other resources related to ocean and climate research.
+       </span>
+      </p>
+     </section>
+     <nav aria-label="このページの目次 / On this page" class="page-toc">
+      <p class="toc-title">
+       このページの内容
+       <span lang="en">
+        / On This Page
+       </span>
+      </p>
       <ul>
-        <li><a href="http://epa.scitec.kobe-u.ac.jp/">神戸大学地球および惑星大気科学研究室</a></li>
-        <li><a href="http://itpass.scitec.kobe-u.ac.jp/">神戸大学 ITPASS</a></li>
-        <li><a href="http://www.aori.u-tokyo.ac.jp/index.html">東京大学大気海洋研究所</a></li>
-        <li><a href="http://ccsr.aori.u-tokyo.ac.jp/~hasumi/ocean_modeling_group">東京大学大気海洋研究所 気候システム研究系気候モデリング研究部門海洋システムモデリング研究分野</a></li>
-        <li><a href="http://www.eps.s.u-tokyo.ac.jp">東京大学大学院理学系研究科地球惑星科学専攻</a></li>
-        <li><a href="http://www.sci.u-toyama.ac.jp/program/env.html">富山大学理学部自然環境科学プログラム</a></li>
-        <li><a href="https://toyama-geochem-keisoku2.jimdofree.com">富山大学理学部環境化学計測第 II 講座 環境地球化学グループ</a></li>
+       <li>
+        <a href="#useful-links">
+         研究・学習用リンク
+         <br/>
+         <span lang="en">
+          Research &amp; Study Resources
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#journals">
+         学術誌
+         <br/>
+         <span lang="en">
+          Journals
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#societies">
+         学会・研究機関
+         <br/>
+         <span lang="en">
+          Societies &amp; Institutions
+         </span>
+        </a>
+       </li>
       </ul>
-
-      <h4>描画</h4>
-      <ul>
-        <li><a href="http://homepage1.nifty.com/~kdo/gmt00_index.html">いちからはじめる GMT</a></li>
-        <li><a href="http://www.piprime.fr/asymptote/">PIPRIME.FR</a></li>
-      </ul>
-
-      <h4>データ</h4>
-      <ul>
-        <li><a href="http://iridl.ldeo.columbia.edu/SOURCES/.GEOSECS/">GEOSECS</a></li>
-        <li><a href="http://orfois.pangaea.de/">ORSOIS</a></li>
-        <li><a href="http://iridl.ldeo.columbia.edu/SOURCES/.LEVITUS/">LEVITUS</a></li>
-        <li><a href="http://www.nodc.noaa.gov/OC5/WOA09/pr_woa09.html">World Ocean Atlas 2009</a></li>
-        <li><a href="http://www.science.oregonstate.edu/ocean.productivity/index.php">Ocean Productivity</a></li>
-      </ul>
-
-      <h4>その他お役立ち</h4>
-      <ul>
-        <li><a href="http://www.alc.co.jp/">英辞郎</a></li>
-        <li><a href="http://www.mendeley.com/">MENDELEY</a></li>
-        <li><a href="http://www.feedly.com/home#latest/">feedly</a></li>
-        <!--
+     </nav>
+     <section class="section-block resource-section" id="useful-links">
+      <p class="section-kicker">
+       RESEARCH RESOURCES
+      </p>
+      <h2>
+       研究・学習用リンク / Research and Study Resources
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         大学・研究所
+        </h3>
+        <ul>
+         <li>
+          <a href="http://epa.scitec.kobe-u.ac.jp/">
+           神戸大学地球および惑星大気科学研究室
+          </a>
+         </li>
+         <li>
+          <a href="http://itpass.scitec.kobe-u.ac.jp/">
+           神戸大学 ITPASS
+          </a>
+         </li>
+         <li>
+          <a href="http://www.aori.u-tokyo.ac.jp/index.html">
+           東京大学大気海洋研究所
+          </a>
+         </li>
+         <li>
+          <a href="http://ccsr.aori.u-tokyo.ac.jp/~hasumi/ocean_modeling_group">
+           東京大学大気海洋研究所 気候システム研究系気候モデリング研究部門海洋システムモデリング研究分野
+          </a>
+         </li>
+         <li>
+          <a href="http://www.eps.s.u-tokyo.ac.jp">
+           東京大学大学院理学系研究科地球惑星科学専攻
+          </a>
+         </li>
+         <li>
+          <a href="http://www.sci.u-toyama.ac.jp/program/env.html">
+           富山大学理学部自然環境科学プログラム
+          </a>
+         </li>
+         <li>
+          <a href="https://toyama-geochem-keisoku2.jimdofree.com">
+           富山大学理学部環境化学計測第 II 講座 環境地球化学グループ
+          </a>
+         </li>
+        </ul>
+       </article>
+       <article class="resource-card">
+        <h3>
+         描画
+        </h3>
+        <ul>
+         <li>
+          <a href="http://homepage1.nifty.com/~kdo/gmt00_index.html">
+           いちからはじめる GMT
+          </a>
+         </li>
+         <li>
+          <a href="http://www.piprime.fr/asymptote/">
+           PIPRIME.FR
+          </a>
+         </li>
+        </ul>
+       </article>
+       <article class="resource-card">
+        <h3>
+         データ
+        </h3>
+        <ul>
+         <li>
+          <a href="http://iridl.ldeo.columbia.edu/SOURCES/.GEOSECS/">
+           GEOSECS
+          </a>
+         </li>
+         <li>
+          <a href="http://orfois.pangaea.de/">
+           ORSOIS
+          </a>
+         </li>
+         <li>
+          <a href="http://iridl.ldeo.columbia.edu/SOURCES/.LEVITUS/">
+           LEVITUS
+          </a>
+         </li>
+         <li>
+          <a href="http://www.nodc.noaa.gov/OC5/WOA09/pr_woa09.html">
+           World Ocean Atlas 2009
+          </a>
+         </li>
+         <li>
+          <a href="http://www.science.oregonstate.edu/ocean.productivity/index.php">
+           Ocean Productivity
+          </a>
+         </li>
+        </ul>
+       </article>
+       <article class="resource-card">
+        <h3>
+         その他お役立ち
+        </h3>
+        <ul>
+         <li>
+          <a href="http://www.alc.co.jp/">
+           英辞郎
+          </a>
+         </li>
+         <li>
+          <a href="http://www.mendeley.com/">
+           MENDELEY
+          </a>
+         </li>
+         <li>
+          <a href="http://www.feedly.com/home#latest/">
+           feedly
+          </a>
+         </li>
+         <!--
         <li><a href="http://www.h5.dion.ne.jp/~komori-n/seaography/">海理学のディレクトリ</a></li>
         !-->
-        <li><a href="https://seaography.web.fc2.com/">海理学のディレクトリ</a></li>
-        <li><a href="https://ccsr.aori.u-tokyo.ac.jp/~obase/">東大大気海洋研 小長谷貴志さん の tips</a></li>
-      </ul>
-
+         <li>
+          <a href="https://seaography.web.fc2.com/">
+           海理学のディレクトリ
+          </a>
+         </li>
+         <li>
+          <a href="https://ccsr.aori.u-tokyo.ac.jp/~obase/">
+           東大大気海洋研 小長谷貴志さん の tips
+          </a>
+         </li>
+        </ul>
+       </article>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="journals">
+      <p class="section-kicker">
+       JOURNALS
+      </p>
+      <h2>
+       学術誌 / Journals
+      </h2>
+      <div class="table-wrap">
+       <table class="resource-table">
+        <tr>
+         <th>
+          略称
+         </th>
+         <th>
+          雑誌名
+         </th>
+         <th>
+          発行元
+         </th>
+        </tr>
+        <!-- ACP -->
+        <tr>
+         <td>
+          <a href="http://www.atmos-chem-phys.net/home.html" rel="noopener noreferrer" target="_blank">
+           Atmos. Chem. Phys.
+          </a>
+         </td>
+         <td>
+          Atmospheric Chemistry and Physics
+         </td>
+         <td>
+          EGU
+         </td>
+        </tr>
+        <!-- BAMS -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1520-0477" rel="noopener noreferrer" target="_blank">
+           Bull. Am. Meteorol. Soc.
+          </a>
+         </td>
+         <td>
+          Bulletin of the American Meteorological Society
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- BG -->
+        <tr>
+         <td>
+          <a href="http://www.biogeosciences.net/home.html" rel="noopener noreferrer" target="_blank">
+           Biogeosciences
+          </a>
+         </td>
+         <td>
+          Biogeosciences
+         </td>
+         <td>
+          EGU
+         </td>
+        </tr>
+        <!-- CD -->
+        <tr>
+         <td>
+          <a href="http://www.springerlink.com/content/0930-7575" rel="noopener noreferrer" target="_blank">
+           Clim. Dyn.
+          </a>
+         </td>
+         <td>
+          Climate Dynamics
+         </td>
+         <td>
+          Springer
+         </td>
+        </tr>
+        <!-- CP -->
+        <tr>
+         <td>
+          <a href="http://www.climate-of-the-past.net/index.html" rel="noopener noreferrer" target="_blank">
+           Clim. Past
+          </a>
+         </td>
+         <td>
+          Climate of the Past
+         </td>
+         <td>
+          EGU
+         </td>
+        </tr>
+        <!-- DSR I -->
+        <tr>
+         <td>
+          <a href="http://www.journals.elsevier.com/deep-sea-research-part-i-oceanographic-research-papers/" rel="noopener noreferrer" target="_blank">
+           Deep -Sea Res. Pt I
+          </a>
+         </td>
+         <td>
+          Deep-Sea Research Part I: Oceanographic Research Papers
+         </td>
+         <td>
+          ELSEVIER
+         </td>
+        </tr>
+        <!-- DSR II -->
+        <tr>
+         <td>
+          <a href="http://www.journals.elsevier.com/deep-sea-research-part-ii-topical-studies-in-oceanography/" rel="noopener noreferrer" target="_blank">
+           Deep -Sea Res. Pt II
+          </a>
+         </td>
+         <td>
+          Deep-Sea Research Part II: Topical Studies in Oceanography
+         </td>
+         <td>
+          ELSEVIER
+         </td>
+        </tr>
+        <!-- GRL -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-8007/" rel="noopener noreferrer" target="_blank">
+           Geophys. Res. Lett.
+          </a>
+         </td>
+         <td>
+          Geophysical Research Letters
+         </td>
+         <td>
+          AGU
+         </td>
+        </tr>
+        <!-- GBC -->
+        <tr>
+         <td>
+          <a href="http://agupubs.onlinelibrary.wiley.com/agu/journal/10.1002/(ISSN)1944-9224/" rel="noopener noreferrer" target="_blank">
+           Glob. Biogeochem. Cycles
+          </a>
+         </td>
+         <td>
+          Global Biogeochemical Cycles
+         </td>
+         <td>
+          AGU
+         </td>
+        </tr>
+        <!-- JAM -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1520-0450" rel="noopener noreferrer" target="_blank">
+           J. Appl. Meteor.
+          </a>
+         </td>
+         <td>
+          Journal of the Applied Meteorology
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- JAMC -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1558-8432" rel="noopener noreferrer" target="_blank">
+           J. Appl. Meteor. and Clim.
+          </a>
+         </td>
+         <td>
+          Journal of the Applied Meteorology and Climate
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- JAS -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1520-0469" rel="noopener noreferrer" target="_blank">
+           J. Atmos. Sci.
+          </a>
+         </td>
+         <td>
+          Journal of the Atmospheric Science
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- JC -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1520-0442" rel="noopener noreferrer" target="_blank">
+           J. Climate.
+          </a>
+         </td>
+         <td>
+          Journal of Climate
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- JGR -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2169-8996/issues/" rel="noopener noreferrer" target="_blank">
+           J. Geophys. Res.
+          </a>
+         </td>
+         <td>
+          Journal of Geophysical Research: Atmospheres
+         </td>
+         <td>
+          AGU
+         </td>
+        </tr>
+        <!-- JMSJ -->
+        <tr>
+         <td>
+          <a href="http://jmsj.metsoc.or.jp/" rel="noopener noreferrer" target="_blank">
+           J. Meteor. Soc. Jpn.
+          </a>
+         </td>
+         <td>
+          Journal of the Meteorological Society of Japan
+         </td>
+         <td>
+          MSJ
+         </td>
+        </tr>
+        <!-- JO -->
+        <tr>
+         <td>
+          <a href="http://www.terrapub.co.jp/journals/JO/index.html" rel="noopener noreferrer" target="_blank">
+           J. Oceanogr.
+          </a>
+         </td>
+         <td>
+          Journal of Oceanography
+         </td>
+         <td>
+          JOS
+         </td>
+        </tr>
+        <!-- JPO -->
+        <tr>
+         <td>
+          <a href="http://journals.ametsoc.org/loi/phoc" rel="noopener noreferrer" target="_blank">
+           J. Phys. Oceanogr.
+          </a>
+         </td>
+         <td>
+          Journal of Physical Oceanography
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- Metrol. Atmos. Phys. -->
+        <tr>
+         <td>
+          <a href="http://www.springerlink.com/content/0177-7971/" rel="noopener noreferrer" target="_blank">
+           Metrol. Atmos. Phys.
+          </a>
+         </td>
+         <td>
+          Meteorology and Atmospheric Physics
+         </td>
+         <td>
+          Springer
+         </td>
+        </tr>
+        <!-- Mon. Wea. Rev -->
+        <tr>
+         <td>
+          <a href="http://ams.allenpress.com/perlserv/?request=get-archive&amp;issn=1520-0493" rel="noopener noreferrer" target="_blank">
+           Mon. Wea. Rev
+          </a>
+         </td>
+         <td>
+          Monthly Weather Review
+         </td>
+         <td>
+          AMS
+         </td>
+        </tr>
+        <!-- Nature -->
+        <tr>
+         <td>
+          <a href="http://www.nature.com/nature/index.html" rel="noopener noreferrer" target="_blank">
+           Nature
+          </a>
+         </td>
+         <td>
+          Nature
+         </td>
+         <td>
+          Nature Publishing Group
+         </td>
+        </tr>
+        <!-- Nclimate -->
+        <tr>
+         <td>
+          <a href="http://www.nature.com/nclimate/index.html" rel="noopener noreferrer" target="_blank">
+           Nat. Clim. Change
+          </a>
+         </td>
+         <td>
+          Nature Climate Change
+         </td>
+         <td>
+          Nature Publishing Group
+         </td>
+        </tr>
+        <!-- Ncomms -->
+        <tr>
+         <td>
+          <a href="http://www.nature.com/ncomms/index.html" rel="noopener noreferrer" target="_blank">
+           Nat. Commun.
+          </a>
+         </td>
+         <td>
+          Nature Communications
+         </td>
+         <td>
+          Nature Publishing Group
+         </td>
+        </tr>
+        <!-- Ngeo -->
+        <tr>
+         <td>
+          <a href="http://www.nature.com/ngeo/index.html" rel="noopener noreferrer" target="_blank">
+           Nat. Geosci.
+          </a>
+         </td>
+         <td>
+          Nature Geoscience
+         </td>
+         <td>
+          Nature Publishing Group
+         </td>
+        </tr>
+        <!-- OD -->
+        <tr>
+         <td>
+          <a href="http://link.springer.com/journal/10236" rel="noopener noreferrer" target="_blank">
+           Ocean Dyn.
+          </a>
+         </td>
+         <td>
+          Ocean Dynamics
+         </td>
+         <td>
+          Springer
+         </td>
+        </tr>
+        <!-- OM -->
+        <tr>
+         <td>
+          <a href="http://www.journals.elsevier.com/ocean-modelling/" rel="noopener noreferrer" target="_blank">
+           Ocean Modell.
+          </a>
+         </td>
+         <td>
+          Ocean Modelling
+         </td>
+         <td>
+          ELSEVIER
+         </td>
+        </tr>
+        <!-- OS -->
+        <tr>
+         <td>
+          <a href="http://www.ocean-science.net/home.html" rel="noopener noreferrer" target="_blank">
+           Ocean Sci.
+          </a>
+         </td>
+         <td>
+          Ocean Science
+         </td>
+         <td>
+          EGU
+         </td>
+        </tr>
+        <!-- Paleoceanography -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-9186/issues/" rel="noopener noreferrer" target="_blank">
+           Paleoceanography
+          </a>
+         </td>
+         <td>
+          Paleoceanography
+         </td>
+         <td>
+          AGU
+         </td>
+        </tr>
+        <!-- PNAS -->
+        <tr>
+         <td>
+          <a href="http://www.pnas.org/" rel="noopener noreferrer" target="_blank">
+           Proc. Natl. Acad. Sci. USA
+          </a>
+         </td>
+         <td>
+          Proceedings of the National Academy of Sciences of the United States of America
+         </td>
+         <td>
+          NAS
+         </td>
+        </tr>
+        <!-- QJRMS -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1477-870X/issues" rel="noopener noreferrer" target="_blank">
+           Q. J. R. Meteorol. Soc.
+          </a>
+         </td>
+         <td>
+          Quarterly Journal of the Royal Meteorological Society
+         </td>
+         <td>
+          RMS
+         </td>
+        </tr>
+        <!-- Rev. Geophys -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-9208/issues/" rel="noopener noreferrer" target="_blank">
+           Rev. Geophys.
+          </a>
+         </td>
+         <td>
+          Review of Geophysics
+         </td>
+         <td>
+          AGU
+         </td>
+        </tr>
+        <!-- Science -->
+        <tr>
+         <td>
+          <a href="http://www.sciencemag.org/magazine.dtl" rel="noopener noreferrer" target="_blank">
+           Science
+          </a>
+         </td>
+         <td>
+          Science
+         </td>
+         <td>
+          AAAS
+         </td>
+        </tr>
+        <!-- SOLA -->
+        <tr>
+         <td>
+          <a href="http://www.jstage.jst.go.jp/browse/sola/-char/ja/" rel="noopener noreferrer" target="_blank">
+           SOLA
+          </a>
+         </td>
+         <td>
+          Sciectific Online Letters on the Atmosphere
+         </td>
+         <td>
+          MSJ
+         </td>
+        </tr>
+        <!-- Tellus -->
+        <tr>
+         <td>
+          <a href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291600-0870" rel="noopener noreferrer" target="_blank">
+           Tellus A
+          </a>
+         </td>
+         <td>
+          Tellus Series A: Dynamic Meteorology and Oceanography
+         </td>
+         <td>
+          Willey
+         </td>
+        </tr>
+        <!-- 天気 -->
+        <tr>
+         <td>
+          <a href="http://www.metsoc.jp/tenki/index_tenki.php" rel="noopener noreferrer" target="_blank">
+           天気
+          </a>
+         </td>
+         <td>
+          天気
+         </td>
+         <td>
+          MSJ
+         </td>
+        </tr>
+        <!-- JGL -->
+        <tr>
+         <td>
+          <a href="http://www.jpgu.org/jgl.html" rel="noopener noreferrer" target="_blank">
+           JGL
+          </a>
+         </td>
+         <td>
+          Japan Geoscience Letters
+         </td>
+         <td>
+          MSJ
+         </td>
+        </tr>
+       </table>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="societies">
+      <p class="section-kicker">
+       SOCIETIES &amp; INSTITUTIONS
+      </p>
+      <h2>
+       学会・研究機関 / Societies and Institutions
+      </h2>
+      <div class="table-wrap">
+       <table class="resource-table">
+        <tr>
+         <th>
+          略称
+         </th>
+         <th>
+          機関名
+         </th>
+         <th>
+          機関名(和)
+         </th>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.aaas.org/" rel="noopener noreferrer" target="_blank">
+           AAAS
+          </a>
+         </td>
+         <td>
+          American Association for the Advancement of Science
+         </td>
+         <td>
+          米国科学振興協会
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.agu.org/" rel="noopener noreferrer" target="_blank">
+           AGU
+          </a>
+         </td>
+         <td>
+          American Geophysical Union
+         </td>
+         <td>
+          米国地球物理学連合
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.ametsoc.org/" rel="noopener noreferrer" target="_blank">
+           AMS
+          </a>
+         </td>
+         <td>
+          American Meteorological Society
+         </td>
+         <td>
+          米国気象学会
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.cawcr.gov.au/" rel="noopener noreferrer" target="_blank">
+           CAWCR
+          </a>
+         </td>
+         <td>
+          The Centre for Australian Weather and Climate Research
+         </td>
+         <td>
+          オーストラリア気象・気候研究センター
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.cccma.bc.ec.gc.ca/" rel="noopener noreferrer" target="_blank">
+           CCCma
+          </a>
+         </td>
+         <td>
+          Canadian Centre for Climate Modelling and Analysis
+         </td>
+         <td>
+          カナダ気象センター
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.cerfacs.fr/" rel="noopener noreferrer" target="_blank">
+           CERFACS
+          </a>
+         </td>
+         <td>
+          Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique
+         </td>
+         <td>
+          ヨーロッパ科学計算研究・特修センター
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://grads.iges.org/cola.html" rel="noopener noreferrer" target="_blank">
+           COLA
+          </a>
+         </td>
+         <td>
+          Center for Ocean-Land-Atmosphere Studies
+         </td>
+         <td>
+          米国大気海洋陸面相互作用研究所
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.csiro.au/" rel="noopener noreferrer" target="_blank">
+           CSIRO
+          </a>
+         </td>
+         <td>
+          Commonwealth Scientific and Industrial Research Organisation
+         </td>
+         <td>
+          連邦科学産業研究機構、オーストラリア
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.dkrz.de/dkrz/intro_s?setlang=en_US" rel="noopener noreferrer" target="_blank">
+           DKRZ
+          </a>
+         </td>
+         <td>
+          Deutsches Klimarechenzentrum
+         </td>
+         <td>
+          ドイツ気象センター
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="https://www.egu.eu/" rel="noopener noreferrer" target="_blank">
+           EGU
+          </a>
+         </td>
+         <td>
+          European Geosciences Union
+         </td>
+         <td>
+          欧州地球科学連合
+         </td>
+        </tr>
+        <tr>
+         <tr>
+          <td>
+           <a href="http://www.gfdl.noaa.gov/" rel="noopener noreferrer" target="_blank">
+            GFDL
+           </a>
+          </td>
+          <td>
+           Geophysical Fluid Dynamics Laboratory
+          </td>
+          <td>
+           地球流体力学研究所、米国
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.giss.nasa.gov/" rel="noopener noreferrer" target="_blank">
+            GISS
+           </a>
+          </td>
+          <td>
+           NASA Goddard Institute for Space Studies
+          </td>
+          <td>
+           ゴダード宇宙研究所、米国
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.iap.ac.cn/english/iap/index.htm" rel="noopener noreferrer" target="_blank">
+            IAP
+           </a>
+          </td>
+          <td>
+           Institute of Atmospheric Physics, Chinese Academy of Sciences
+          </td>
+          <td>
+           中国科学院大気物理研究所
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.ipsl.fr/" rel="noopener noreferrer" target="_blank">
+            IPSL
+           </a>
+          </td>
+          <td>
+           Institut Pierre Simon Laplace des sciences de l'environnement
+          </td>
+          <td>
+           ピエール=シモン・ラプラス研究所、フランス
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://kaiyo-gakkai.jp/jos/" rel="noopener noreferrer" target="_blank">
+            JOS
+           </a>
+          </td>
+          <td>
+           The Oceanographic Society of Japan
+          </td>
+          <td>
+           日本海洋学会
+          </td>
+         </tr>
+         <td>
+          <a href="http://www.jpgu.org/" rel="noopener noreferrer" target="_blank">
+           JpGU
+          </a>
+         </td>
+         <td>
+          Japan Geoscience Union
+         </td>
+         <td>
+          日本地球惑星科学連合
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.lmd.jussieu.fr/en/Welcome.html" rel="noopener noreferrer" target="_blank">
+           LMD
+          </a>
+         </td>
+         <td>
+          Le Laboratoire de Meteorologie Dynamique
+         </td>
+         <td>
+          仏気象力学研究所
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.mpg.de/english/portal/index.html" rel="noopener noreferrer" target="_blank">
+           MPI
+          </a>
+         </td>
+         <td>
+          Max Plank Gesellschaft
+         </td>
+         <td>
+          マックス・プランク研究所、ドイツ
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a href="http://www.soc.nii.ac.jp/msj/" rel="noopener noreferrer" target="_blank">
+           MSJ
+          </a>
+         </td>
+         <td>
+          Meteorological Society of Japan
+         </td>
+         <td>
+          日本気象学会
+         </td>
+        </tr>
+        <tr>
+         <tr>
+          <td>
+           <a href="http://www.nasonline.org" rel="noopener noreferrer" target="_blank">
+            NAS
+           </a>
+          </td>
+          <td>
+           National Academy of Sciences
+          </td>
+          <td>
+           米国科学アカデミー
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.ncar.ucar.edu/" rel="noopener noreferrer" target="_blank">
+            NCAR
+           </a>
+          </td>
+          <td>
+           The National Center for Atmospheric Research
+          </td>
+          <td>
+           全米大気研究センター
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.noaa.gov/" rel="noopener noreferrer" target="_blank">
+            NOAA
+           </a>
+          </td>
+          <td>
+           National Oceanic and Atmospheric Administration
+          </td>
+          <td>
+           米国海洋大気庁
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.metoffice.gov.uk/climatechange/science/hadleycentre/" rel="noopener noreferrer" target="_blank">
+            The Hadley Centre
+           </a>
+          </td>
+          <td>
+           Met Office Hadley Centre
+          </td>
+          <td>
+           英国気象局
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="http://www.geocities.jp/kaiyowakate/" rel="noopener noreferrer" target="_blank">
+            海洋若手会
+           </a>
+          </td>
+          <td>
+           日本海洋学会 海洋若手会
+          </td>
+          <td>
+           日本海洋学会 海洋若手会
+          </td>
+         </tr>
+        </tr>
+       </table>
+      </div>
+     </section>
     </section>
-
-    <section id="contents">
-
-      <h2>雑誌 (Journal)</h2>
-
-      <table border="1" cellspacing="0" cellpadding="5">
-        <tr>
-          <th>略称</th><th>雑誌名</th><th>発行元</th>
-        </tr>
-      <!-- ACP -->
-        <tr>
-          <td><a href="http://www.atmos-chem-phys.net/home.html">Atmos. Chem. Phys.</a></td>
-          <td>Atmospheric Chemistry and Physics</td>
-          <td>EGU</td>
-        </tr>
-      <!-- BAMS -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1520-0477">Bull. Am. Meteorol. Soc.</a></td>
-          <td>Bulletin of the American Meteorological Society</td>
-          <td>AMS</td>
-        </tr>
-      <!-- BG -->
-        <tr>
-          <td><a href="http://www.biogeosciences.net/home.html">Biogeosciences</a></td>
-          <td>Biogeosciences</td>
-          <td>EGU</td>
-        </tr>
-      <!-- CD -->
-        <tr>
-          <td><a href="http://www.springerlink.com/content/0930-7575">Clim. Dyn.</a></td>
-          <td>Climate Dynamics</td>
-          <td>Springer</td>
-        </tr>
-      <!-- CP -->
-        <tr>
-          <td><a href="http://www.climate-of-the-past.net/index.html">Clim. Past</a></td>
-          <td>Climate of the Past</td>
-          <td>EGU</td>
-        </tr>
-      <!-- DSR I -->
-        <tr>
-          <td><a href="http://www.journals.elsevier.com/deep-sea-research-part-i-oceanographic-research-papers/">Deep -Sea Res. Pt I</a></td>
-          <td>Deep-Sea Research Part I: Oceanographic Research Papers</td>
-          <td>ELSEVIER</td>
-        </tr>
-      <!-- DSR II -->
-        <tr>
-          <td><a href="http://www.journals.elsevier.com/deep-sea-research-part-ii-topical-studies-in-oceanography/">Deep -Sea Res. Pt II</a></td>
-          <td>Deep-Sea Research Part II: Topical Studies in Oceanography</td>
-          <td>ELSEVIER</td>
-        </tr>
-      <!-- GRL -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-8007/">Geophys. Res. Lett.</a></td>
-          <td>Geophysical Research Letters</td>
-          <td>AGU</td>
-        </tr>
-      <!-- GBC -->
-        <tr>
-          <td><a href="http://agupubs.onlinelibrary.wiley.com/agu/journal/10.1002/(ISSN)1944-9224/">Glob. Biogeochem. Cycles</a></td>
-          <td>Global Biogeochemical Cycles</td>
-          <td>AGU</td>
-        </tr>
-      <!-- JAM -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1520-0450">J. Appl. Meteor.</a></td>
-          <td>Journal of the Applied Meteorology</td>
-          <td>AMS</td>
-        </tr>
-      <!-- JAMC -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1558-8432">J. Appl. Meteor. and Clim.</a></td>
-          <td>Journal of the Applied Meteorology and Climate</td>
-          <td>AMS</td>
-        </tr>
-      <!-- JAS -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1520-0469">J. Atmos. Sci.</a></td>
-          <td>Journal of the Atmospheric Science</td>
-          <td>AMS</td>
-        </tr>
-      <!-- JC -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1520-0442" >J. Climate.</a></td>
-          <td>Journal of Climate</td>
-          <td>AMS</td>
-        </tr>
-      <!-- JGR -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2169-8996/issues/">J. Geophys. Res.</a></td>
-          <td>Journal of Geophysical Research: Atmospheres</td>
-          <td>AGU</td>
-        </tr>
-      <!-- JMSJ -->
-        <tr>
-          <td><a href="http://jmsj.metsoc.or.jp/">J. Meteor. Soc. Jpn.</a></td>
-          <td>Journal of the Meteorological Society of Japan</td>
-          <td>MSJ</td>
-        </tr>
-      <!-- JO -->
-        <tr>
-          <td><a href="http://www.terrapub.co.jp/journals/JO/index.html">J. Oceanogr.</a></td>
-          <td>Journal of Oceanography</td>
-          <td>JOS</td>
-        </tr>
-      <!-- JPO -->
-        <tr>
-          <td><a href="http://journals.ametsoc.org/loi/phoc">J. Phys. Oceanogr.</a></td>
-          <td>Journal of Physical Oceanography</td>
-          <td>AMS</td>
-        </tr>
-      <!-- Metrol. Atmos. Phys. -->
-        <tr>
-          <td><a href="http://www.springerlink.com/content/0177-7971/" >Metrol. Atmos. Phys.</a></td>
-          <td>Meteorology and Atmospheric Physics </td>
-          <td>Springer</td>
-        </tr>
-      <!-- Mon. Wea. Rev -->
-        <tr>
-          <td><a href="http://ams.allenpress.com/perlserv/?request=get-archive&issn=1520-0493" >Mon. Wea. Rev</a></td>
-          <td>Monthly Weather Review</td>
-          <td>AMS</td>
-        </tr>
-      <!-- Nature -->
-        <tr>
-          <td><a href="http://www.nature.com/nature/index.html" >Nature</a></td>
-          <td>Nature</td>
-          <td>Nature Publishing Group</td>
-       </tr>
-
-      <!-- Nclimate -->
-        <tr>
-          <td><a href="http://www.nature.com/nclimate/index.html" >Nat. Clim. Change</a></td>
-          <td>Nature Climate Change</td>
-          <td>Nature Publishing Group</td>
-       </tr>
-
-      <!-- Ncomms -->
-        <tr>
-          <td><a href="http://www.nature.com/ncomms/index.html" >Nat. Commun.</a></td>
-          <td>Nature Communications</td>
-          <td>Nature Publishing Group</td>
-       </tr>
-      <!-- Ngeo -->
-        <tr>
-          <td><a href="http://www.nature.com/ngeo/index.html" >Nat. Geosci.</a></td>
-          <td>Nature Geoscience</td>
-          <td>Nature Publishing Group</td>
-       </tr>
-      <!-- OD -->
-        <tr>
-          <td><a href="http://link.springer.com/journal/10236" >Ocean Dyn.</a></td>
-          <td>Ocean Dynamics</td>
-          <td>Springer</td>
-       </tr>
-      <!-- OM -->
-        <tr>
-          <td><a href="http://www.journals.elsevier.com/ocean-modelling/" >Ocean Modell.</a></td>
-          <td>Ocean Modelling</td>
-          <td>ELSEVIER</td>
-       </tr>
-      <!-- OS -->
-        <tr>
-          <td><a href="http://www.ocean-science.net/home.html" >Ocean Sci.</a></td>
-          <td>Ocean Science</td>
-          <td>EGU</td>
-       </tr>
-      <!-- Paleoceanography -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-9186/issues/">Paleoceanography</a></td>
-          <td>Paleoceanography</td>
-          <td>AGU</td>
-        </tr>
-      <!-- PNAS -->
-        <tr>
-          <td><a href="http://www.pnas.org/">Proc. Natl. Acad. Sci. USA</a></td>
-          <td>Proceedings of the National Academy of Sciences of the United States of America</td>
-          <td>NAS</td>
-        </tr>
-      <!-- QJRMS -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1477-870X/issues">Q. J. R. Meteorol. Soc.</a></td>
-          <td>Quarterly Journal of the Royal Meteorological Society</td>
-          <td>RMS</td>
-        </tr>
-      <!-- Rev. Geophys -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1944-9208/issues/">Rev. Geophys.</a></td>
-          <td>Review of Geophysics</td>
-          <td>AGU</td>
-        </tr>
-      <!-- Science -->
-        <tr>
-          <td><a href="http://www.sciencemag.org/magazine.dtl">Science</a></td>
-          <td>Science</td>
-          <td>AAAS</td>
-        </tr>
-      <!-- SOLA -->
-        <tr>
-          <td><a href="http://www.jstage.jst.go.jp/browse/sola/-char/ja/">SOLA</a></td>
-          <td>Sciectific Online Letters on the Atmosphere</td>
-          <td>MSJ</td>
-        </tr>
-      <!-- Tellus -->
-        <tr>
-          <td><a href="http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291600-0870">Tellus A</a></td>
-          <td>Tellus Series A: Dynamic Meteorology and Oceanography</td>
-          <td>Willey</td>
-        </tr>
-      <!-- 天気 -->
-        <tr>
-          <td><a href="http://www.metsoc.jp/tenki/index_tenki.php">天気</a></td>
-          <td>天気</td>
-          <td>MSJ</td>
-        </tr>
-      <!-- JGL -->
-        <tr>
-          <td><a href="http://www.jpgu.org/jgl.html">JGL</a></td>
-          <td>Japan Geoscience Letters</td>
-          <td>MSJ</td>
-        </tr>
-      </table>
-
-    </section>
-
-    <section id="contents">
-
-      <h2>機関 (Society)</h2>
-
-      <table border="1" cellspacing="0" cellpadding="5">
-        <tr>
-          <th>略称</th><th>機関名</th><th>機関名(和)</th>
-        </tr>
-        <tr>
-          <td><a href="http://www.aaas.org/" >AAAS</a></td>
-          <td> American Association for the Advancement of Science</td>
-          <td>米国科学振興協会</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.agu.org/" >AGU</a></td>
-          <td>American Geophysical Union</td>
-          <td>米国地球物理学連合</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.ametsoc.org/" >AMS</a></td>
-          <td>American Meteorological Society</td>
-          <td>米国気象学会</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.cawcr.gov.au/">CAWCR</a></td>
-          <td>The Centre for Australian Weather and Climate Research</td>
-          <td>オーストラリア気象・気候研究センター</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.cccma.bc.ec.gc.ca/">CCCma</a></td>
-          <td>Canadian Centre for Climate Modelling and Analysis</td>
-          <td>カナダ気象センター</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.cerfacs.fr/">CERFACS</a></td>
-          <td>Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique</td>
-          <td>ヨーロッパ科学計算研究・特修センター</td>
-        </tr>
-        <tr>
-          <td><a href="http://grads.iges.org/cola.html">COLA</a></td>
-          <td>Center for Ocean-Land-Atmosphere Studies</td>
-          <td>米国大気海洋陸面相互作用研究所</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.csiro.au/">CSIRO</a></td>
-          <td>Commonwealth Scientific and Industrial Research Organisation</td>
-          <td>連邦科学産業研究機構、オーストラリア</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.dkrz.de/dkrz/intro_s?setlang=en_US">DKRZ</a></td>
-          <td>Deutsches Klimarechenzentrum</td>
-          <td>ドイツ気象センター</td>
-        </tr>
-        <tr>
-          <td><a href="https://www.egu.eu/">EGU</a></td>
-          <td>European Geosciences Union</td>
-          <td>欧州地球科学連合</td>
-        </tr>
-        <tr>
-        <tr>
-          <td><a href="http://www.gfdl.noaa.gov/">GFDL</a></td>
-          <td>Geophysical Fluid Dynamics Laboratory</td>
-          <td>地球流体力学研究所、米国</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.giss.nasa.gov/">GISS</a></td>
-          <td>NASA Goddard Institute for Space Studies</td>
-          <td>ゴダード宇宙研究所、米国</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.iap.ac.cn/english/iap/index.htm">IAP</a></td>
-          <td>Institute of Atmospheric Physics, Chinese Academy of Sciences</td>
-          <td>中国科学院大気物理研究所</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.ipsl.fr/">IPSL</a></td>
-          <td>Institut Pierre Simon Laplace des sciences de l'environnement</td>
-          <td>ピエール=シモン・ラプラス研究所、フランス</td>
-        </tr>
-        <tr>
-          <td><a href="http://kaiyo-gakkai.jp/jos/" >JOS</a></td>
-          <td>The Oceanographic Society of Japan</td>
-          <td>日本海洋学会</td>
-        </tr>
-          <td><a href="http://www.jpgu.org/" >JpGU</a></td>
-          <td>Japan Geoscience Union</td>
-          <td>日本地球惑星科学連合</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.lmd.jussieu.fr/en/Welcome.html">LMD</a></td>
-          <td>Le Laboratoire de Meteorologie Dynamique</td>
-          <td>仏気象力学研究所</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.mpg.de/english/portal/index.html">MPI</a></td>
-          <td>Max Plank Gesellschaft</td>
-          <td>マックス・プランク研究所、ドイツ</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.soc.nii.ac.jp/msj/" >MSJ</a></td>
-          <td>Meteorological Society of Japan</td>
-          <td>日本気象学会</td>
-        </tr>
-        <tr>
-        <tr>
-          <td><a href="http://www.nasonline.org" >NAS</a></td>
-          <td>National Academy of Sciences</td>
-          <td>米国科学アカデミー</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.ncar.ucar.edu/">NCAR</a></td>
-          <td>The National Center for Atmospheric Research</td>
-          <td>全米大気研究センター</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.noaa.gov/">NOAA</a></td>
-          <td>National Oceanic and Atmospheric Administration</td>
-          <td>米国海洋大気庁</td>
-        </tr>
-        <tr>
-          <td><a href="http://www.metoffice.gov.uk/climatechange/science/hadleycentre/">The Hadley Centre</a></td>
-          <td>Met Office Hadley Centre</td>
-          <td>英国気象局</td>
-        </tr>
-
-        <tr>
-          <td><a href="http://www.geocities.jp/kaiyowakate/" >海洋若手会</a></td>
-          <td>日本海洋学会 海洋若手会</td>
-          <td>日本海洋学会 海洋若手会</td>
-        </tr>
-      </table>
-
-    </section>
-  </main>
-
-  <footer id="footer">
+   </main>
+   <footer id="footer">
     <p>
-      <small>
-        <script>
-          const day = new Date(document.lastModified);
-          document.write("Last Update: " + day.getFullYear() + "/" + (day.getMonth() + 1) + "/" + day.getDate());
-        </script>
-        <br>
-        Since: 2011/09/01 <br>
-        Copyright &copy; Hidetaka Kobayashi. All Rights Reserved.
-      </small>
+     <small>
+      Last Update:
+      <span id="last-update">
+      </span>
+      <br/>
+      Since: 2011/09/01
+      <br/>
+      Copyright &copy; Hidetaka Kobayashi. All Rights Reserved.
+     </small>
     </p>
-  </footer>
+   </footer>
+  </div>
+  <script>
+   (() => {
+    const target = document.getElementById("last-update");
+    const modified = new Date(document.lastModified);
 
-</div>
-</body>
+    if (target && !Number.isNaN(modified.getTime())) {
+      target.textContent = new Intl.DateTimeFormat("ja-JP", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).format(modified);
+    }
+  })();
+  </script>
+ </body>
 </html>

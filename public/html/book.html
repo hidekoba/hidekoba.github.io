@@ -1,278 +1,557 @@
 ﻿<!DOCTYPE html>
+?
+<!DOCTYPE html>
 <html lang="ja">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="海洋学、気候科学、生物地球化学、データ解析、プログラミングに関する参考文献を日本語・英語で紹介します。" name="description"/>
+  <meta content="海洋学, 気候科学, 生物地球化学, 地球科学, 参考文献, 数値モデリング, 小林英貴, 富山大学" name="keywords"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   参考文献 / References｜小林英貴・富山大学
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="../../css/base.css" media="screen" rel="stylesheet"/>
+  <style>
+   .resource-intro {
+      margin-bottom: 2rem;
+    }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="海洋学、気候科学、生物地球化学、データ解析、プログラミングに関する参考文献を紹介します。">
-  <meta name="keywords" content="海洋学, 気候科学, 生物地球化学, 地球科学, 参考文献, Hidetaka Kobayashi">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>References | Hidetaka Kobayashi's Page</title>
+    .resource-intro .outputs-lead span[lang="en"] {
+      display: block;
+      margin-top: 0.45rem;
+    }
 
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=Kosugi+Maru&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/base.css" media="screen">
-</head>
+    .resource-section {
+      margin-top: 2.6rem;
+    }
 
-<body>
-<div id="wrapper">
+    .resource-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
 
-  <header id="header">
-    <h1 class="logo">Hidetaka Kobayashi's Page</h1>
-    <p class="description">
-      Assistant Professor (Project), Faculty of Science, University of Toyama
-    </p>
-  </header>
+    .resource-card {
+      padding: 1.2rem;
+      background: #fff;
+      border: 1px solid #d7e2e6;
+      border-radius: 8px;
+    }
 
-  <nav id="globalnavi" aria-label="メインナビゲーション / Main Navigation">
+    .resource-card h3 {
+      margin-top: 0;
+    }
+
+    .resource-card ul {
+      margin-bottom: 0;
+    }
+
+    .resource-card li + li {
+      margin-top: 0.55rem;
+    }
+
+    .table-wrap {
+      margin-top: 1rem;
+      overflow-x: auto;
+      background: #fff;
+      border: 1px solid #d7e2e6;
+      border-radius: 8px;
+    }
+
+    .resource-table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+      border: 0;
+    }
+
+    .resource-table th,
+    .resource-table td {
+      padding: 0.75rem 0.85rem;
+      text-align: left;
+      vertical-align: top;
+      border: 0;
+      border-bottom: 1px solid #e1e9ec;
+    }
+
+    .resource-table th {
+      background: #f1f6f7;
+      color: #294d59;
+      font-weight: 700;
+    }
+
+    .resource-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .reference-list {
+      margin: 0;
+      padding-left: 1.35rem;
+    }
+
+    .reference-list li + li {
+      margin-top: 0.65rem;
+    }
+
+    @media (max-width: 720px) {
+      .resource-card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+ </head>
+ <body>
+  <div id="wrapper">
+   <header class="site-header" id="header">
+    <div class="header-copy">
+     <p class="eyebrow">
+      海洋炭素循環 / Ocean Carbon Cycle,
+      気候力学 / Climate Dynamics,
+      古気候・古海洋学 / Paleoceanography and Paleoclimatology,
+      数値モデリング / Numerical Modeling
+     </p>
+     <h1 class="logo">
+      小林 英貴
+      <span lang="en">
+       Hidetaka Kobayashi
+      </span>
+     </h1>
+     <p class="description">
+      富山大学 学術研究部理学系 特命助教
+      <br/>
+      <span lang="en">
+       Assistant Professor (Project), Faculty of Science, University of Toyama
+      </span>
+     </p>
+    </div>
+   </header>
+   <nav aria-label="メインナビゲーション / Main Navigation" id="globalnavi">
     <ul>
-      <li>
-        <a href="../../index.html">
-          <span class="nav-en" lang="en">Home</span>
-          <span class="nav-ja">ホーム</span>
-        </a>
-      </li>
-      <li>
-        <a href="./research.html">
-          <span class="nav-en" lang="en">Research</span>
-          <span class="nav-ja">研究</span>
-        </a>
-      </li>
-      <li>
-        <a href="./achievements.html">
-          <span class="nav-en" lang="en">Publications</span>
-          <span class="nav-ja">業績</span>
-        </a>
-      </li>
-      <li>
-        <a href="./member.html">
-          <span class="nav-en" lang="en">Members</span>
-          <span class="nav-ja">メンバー</span>
-        </a>
-      </li>
-      <li>
-        <a href="./book.html" aria-current="page">
-          <span class="nav-en" lang="en">References</span>
-          <span class="nav-ja">文献</span>
-        </a>
-      </li>
-      <li>
-        <a href="./link.html">
-          <span class="nav-en" lang="en">Links</span>
-          <span class="nav-ja">リンク</span>
-        </a>
-      </li>
+     <li>
+      <a href="../../index.html">
+       <span class="nav-en" lang="en">
+        Home
+       </span>
+       <span class="nav-ja">
+        ホーム
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./research.html">
+       <span class="nav-en" lang="en">
+        Research
+       </span>
+       <span class="nav-ja">
+        研究
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./achievements.html">
+       <span class="nav-en" lang="en">
+        Publications
+       </span>
+       <span class="nav-ja">
+        業績
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./member.html">
+       <span class="nav-en" lang="en">
+        Members
+       </span>
+       <span class="nav-ja">
+        メンバー
+       </span>
+      </a>
+     </li>
+     <li>
+      <a aria-current="page" href="./book.html">
+       <span class="nav-en" lang="en">
+        References
+       </span>
+       <span class="nav-ja">
+        文献
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="./link.html">
+       <span class="nav-en" lang="en">
+        Links
+       </span>
+       <span class="nav-ja">
+        リンク
+       </span>
+      </a>
+     </li>
     </ul>
-  </nav>
-
-  <main id="container">
+   </nav>
+   <main id="container">
     <section id="contents">
-      <p class="topic-path"><a href="../../index.html">Home</a> &gt; References</p>
-
-      <h2>参考文献 / References</h2>
-
-      <h4>地球科学 （一般向け）</h4>
-        <ul>
-          <li>
+     <section aria-labelledby="references-title" class="outputs-intro resource-intro">
+      <p class="section-label">
+       REFERENCES
+      </p>
+      <h2 id="references-title">
+       参考文献 / References
+      </h2>
+      <p class="outputs-lead">
+       海洋学、気候科学、生物地球化学、データ解析、プログラミングに関する参考文献を分野別に紹介します。
+       <span lang="en">
+        Selected references on oceanography, climate science, biogeochemistry, data analysis, and programming are organized by topic.
+       </span>
+      </p>
+     </section>
+     <nav aria-label="このページの目次 / On this page" class="page-toc">
+      <p class="toc-title">
+       このページの内容
+       <span lang="en">
+        / On This Page
+       </span>
+      </p>
+      <ul>
+       <li>
+        <a href="#general-earth-science">
+         地球科学・一般向け
+         <br/>
+         <span lang="en">
+          Earth Science for General Readers
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#earth-science">
+         地球科学
+         <br/>
+         <span lang="en">
+          Earth Science
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#analysis-programming">
+         解析・プログラミング
+         <br/>
+         <span lang="en">
+          Analysis &amp; Programming
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#english-textbooks">
+         洋書
+         <br/>
+         <span lang="en">
+          English Textbooks
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="#ocean-literature">
+         海洋文学
+         <br/>
+         <span lang="en">
+          Ocean Literature
+         </span>
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <section class="section-block resource-section" id="general-earth-science">
+      <p class="section-kicker">
+       GENERAL EARTH SCIENCE
+      </p>
+      <h2>
+       地球科学（一般向け） / Earth Science for General Readers
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         地球科学 （一般向け）
+        </h3>
+        <ul class="reference-list">
+         <li>
           大河内 直彦, 2008,
-          チェンジングブルー　―気候変動の謎に迫る
-          </li>
-          <li>
-          日本地下水学会, 2009, 見えない巨大水脈 地下水の科学―使えばすぐには戻らない「意外な希少資源」
-          </li>
-          <li>
+          チェンジングブルー　&horbar;気候変動の謎に迫る
+         </li>
+         <li>
+          日本地下水学会, 2009, 見えない巨大水脈 地下水の科学&horbar;使えばすぐには戻らない「意外な希少資源」
+         </li>
+         <li>
           古川 武彦, 2012,
-          人と技術で語る天気予報史―数値予報を開いた“金色の鍵”
-          </li>
-          <li>
+          人と技術で語る天気予報史&horbar;数値予報を開いた&ldquo;金色の鍵&rdquo;
+         </li>
+         <li>
           カート・ステージャ (著), 岸由二 (監修), 小宮繁 (翻訳) , 2012,
           10 万年の未来地球史
-          </li>
-          <li>
+         </li>
+         <li>
           榧根 勇, 2013, 地下水と地形の科学 水文学入門
-          </li>
-          <li>
+         </li>
+         <li>
           阿部 豊, 阿部 彩子, 2015,
           生命の星の条件を探る
-          </li>
-          <li>
+         </li>
+         <li>
           柏野 祐二, 2016, 海の教科書 波の不思議から海洋大循環まで
-          </li>
-          <li>
+         </li>
+         <li>
           中川 毅, 2017, 人類と気候の10万年史 過去に何が起きたのか、これから何が起こるのか
-          </li>
-          <li>
+         </li>
+         <li>
           多田 隆治, 2017, 気候変動を理学する【新装版】
-          </li>
-          <li>
+         </li>
+         <li>
           横山 祐典, 2018, 地球46億年 気候大変動 炭素循環で読み解く、地球気候の過去・現在・未来
-          </li>
-          <li>
+         </li>
+         <li>
           渡部 雅浩, 2018, 絵でわかる地球温暖化
-          </li>
-          <li>
-          河宮 未知生, 2018, シミュレート・ジ・アース ―未来を予測する地球科学
-          </li>
-          <li>
+         </li>
+         <li>
+          河宮 未知生, 2018, シミュレート・ジ・アース &horbar;未来を予測する地球科学
+         </li>
+         <li>
           真鍋 淑郎 (著), アンソニー・J・ブロッコリー (著), 阿部 彩子 (翻訳, 監修), 増田 耕一 (翻訳, 監修), 宮本 寿代 (翻訳) , 2022,
           地球温暖化はなぜ起こるのか 気候モデルで探る 過去・現在・未来の地球
-          </li>
+         </li>
         </ul>
-
-      <h4>地球科学</h4>
-        <ul>
-          <li>
-          野崎 義行, 1994, 地球温暖化と海―炭素の循環から探る
-          </li>
-          <li>
+       </article>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="earth-science">
+      <p class="section-kicker">
+       EARTH SCIENCE
+      </p>
+      <h2>
+       地球科学 / Earth Science
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         地球科学
+        </h3>
+        <ul class="reference-list">
+         <li>
+          野崎 義行, 1994, 地球温暖化と海&horbar;炭素の循環から探る
+         </li>
+         <li>
           住 明正, 安成 哲三, 山形 俊男, 増田 耕一, 阿部 彩子, 増田 富士雄, 余田 成男, 2011,
           気候変動論 (新装版 地球惑星科学 11)
-          </li>
-          <li>
+         </li>
+         <li>
           蒲生 俊敬, 2014, 海洋地球化学
-          </li>
-          <li>
-          日本海洋学会, 2017, 海の温暖化 ―変わりゆく海と人間活動の影響
-          </li>
-          <li>
-          川幡 穂高, 2008, 海洋地球環境学―生物地球化学循環から読む
-          </li>
-          <li>
+         </li>
+         <li>
+          日本海洋学会, 2017, 海の温暖化 &horbar;変わりゆく海と人間活動の影響
+         </li>
+         <li>
+          川幡 穂高, 2008, 海洋地球環境学&horbar;生物地球化学循環から読む
+         </li>
+         <li>
           花輪 公雄, 2017, 海洋の物理学
-          </li>
-          <li>
+         </li>
+         <li>
           鹿園 直建, 2010, 地球システム環境化学
-          </li>
-          <li>
+         </li>
+         <li>
           J. E. アンドリュース（著）, 渡辺 正（翻訳）, 2012, 地球環境化学入門論 (改訂版)
-          </li>
+         </li>
         </ul>
-
-      <h4>web 読み物</h4>
-        <ul>
-          <li>
+       </article>
+       <article class="resource-card">
+        <h3>
+         web 読み物
+        </h3>
+        <ul class="reference-list">
+         <li>
           <a href="https://www.env.go.jp/earth/ipcc/6th/index.html">
-          IPCC 報告書の解説
+           IPCC 報告書の解説
           </a>
-          </li>
+         </li>
         </ul>
-
-      <h4>解析</h4>
-        <ul>
-          <li>
+       </article>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="analysis-programming">
+      <p class="section-kicker">
+       ANALYSIS PROGRAMMING
+      </p>
+      <h2>
+       解析・プログラミング / Analysis &amp; Programming
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         解析
+        </h3>
+        <ul class="reference-list">
+         <li>
           松山 洋, 谷本 陽一, 2008,
-          UNIX/Windows/Macintosh を使った実践 気候データ解析―気候学・気象学・海洋学などの報告書・論文を書く人が知っておきたい 3 つのポイント
-          </li>
-          <li>
+          UNIX/Windows/Macintosh を使った実践 気候データ解析&horbar;気候学・気象学・海洋学などの報告書・論文を書く人が知っておきたい 3 つのポイント
+         </li>
+         <li>
           倉田 博史, 星野 崇宏, 2009,
           入門統計解析
-          </li>
+         </li>
         </ul>
-
-      <h4>計算機、プログラミング</h4>
-        <ul>
-          <li>
+       </article>
+       <article class="resource-card">
+        <h3>
+         計算機、プログラミング
+        </h3>
+        <ul class="reference-list">
+         <li>
           高町 健一郎, 大津 真, 佐藤 竜一, 2007,
-          Linux の教科書―ホントに読んでほしい root 入門講座
-          </li>
-          <li>
+          Linux の教科書&horbar;ホントに読んでほしい root 入門講座
+         </li>
+         <li>
           戸根 勤, 2007,
           ネットワークはなぜつながるのか 第2版 知っておきたいTCP/IP、LAN、光ファイバの基礎知識
-          </li>
-          <li>
+         </li>
+         <li>
           木本雅彦, 松山直道, 稲島大輔, 2014,
           はじめて UNIX で仕事をする人が読む本
-          </li>
-          <li>
+         </li>
+         <li>
           牛島 省, 2020, 数値計算のための Fortran90/95 プログラミング入門
-          </li>
-          <li>
+         </li>
+         <li>
           高橋 麻奈, 2018, やさしい Python
-          </li>
+         </li>
         </ul>
-
-
-      <h4>流体力学・気象学・海洋学 (洋書)</h4>
-        <ul>
-          <li>
+       </article>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="english-textbooks">
+      <p class="section-kicker">
+       ENGLISH TEXTBOOKS
+      </p>
+      <h2>
+       洋書 / English Textbooks
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         流体力学・気象学・海洋学 (洋書)
+        </h3>
+        <ul class="reference-list">
+         <li>
           Geoffrey K. Vallis, 2006, Atmospheric and Oceanic Fluid Dynamics: Fundamentals and Large-Scale Circulation
-          </li>
-          <li>
+         </li>
+         <li>
           Geoffrey K. Vallis, 2019, Atmospheric and Oceanic Fluid Dynamics: Fundamentals and Large-Scale Circulation
-          </li>
-          <li>
+         </li>
+         <li>
           James R. Holton, 2004, Introduction to Dynamic Meteorology
-          </li>
-          <li>
+         </li>
+         <li>
           Dennis Hartmann, 2015, Global Physical Climatology (2nd Ed.)
-          </li>
-          <li>
+         </li>
+         <li>
           Adrian E. Gill, 1982, Atmosphere-Ocean Dynamics
-          </li>
-          <li>
+         </li>
+         <li>
           Joseph Pedlosky, 1987, Geophysical Fluid Dynamics
-          </li>
-          <li>
+         </li>
+         <li>
           Kris Karnauskas, 2020, Physical Oceanography and Climate
-          </li>
+         </li>
         </ul>
-
-      <h4>海洋生物地球化学 (洋書)</h4>
-        <ul>
-          <li>
+       </article>
+       <article class="resource-card">
+        <h3>
+         海洋生物地球化学 (洋書)
+        </h3>
+        <ul class="reference-list">
+         <li>
           Wallace S. Broecker and Tsung-Hung Peng, 1982, Tracers in the Sea
-          </li>
-          <li>
+         </li>
+         <li>
           Jorge L. Sarmiento and Nicolas Gruber, 2006, Ocean biogeochemical dynamics
-          </li>
-          <li>
+         </li>
+         <li>
           Steven Emerson and John Hedges, 2008, Chemical Oceanography and the Marine Carbon Cycle
-          </li>
-          <li>
-          Steven R. Emerson and Roberta C. Hamme, 2022, Chemical Oceanography and the Marine Carbon Cycle ― Element Fluxes in the Sea
-          </li>
-          <li>
+         </li>
+         <li>
+          Steven R. Emerson and Roberta C. Hamme, 2022, Chemical Oceanography and the Marine Carbon Cycle &horbar; Element Fluxes in the Sea
+         </li>
+         <li>
           Lynne D. Talley, 2011, Descriptive Physical Oceanography: An Introduction
-          </li>
-          <li>
+         </li>
+         <li>
           Richard G. Williams,  Michael J. Follows, 2016, Ocean Dynamics and the Carbon Cycle
-          </li>
-          <li>
+         </li>
+         <li>
           W. H. Schlesinger, Emily S. Bernhardt, 2020, Biogeochemistry: An Analysis of Global Change 4th edition
-          </li>
-          <li>
+         </li>
+         <li>
           Wallace S. Broecker, 1995, The Glacial World According to Wally
-          </li>
+         </li>
         </ul>
-
-      <h4>海洋文学</h4>
-        <ul>
-          <li>
+       </article>
+      </div>
+     </section>
+     <section class="section-block resource-section" id="ocean-literature">
+      <p class="section-kicker">
+       OCEAN LITERATURE
+      </p>
+      <h2>
+       海洋文学 / Ocean Literature
+      </h2>
+      <div class="resource-card-grid">
+       <article class="resource-card">
+        <h3>
+         海洋文学
+        </h3>
+        <ul class="reference-list">
+         <li>
           レイチェル・カースン (著), 日下 実男 (翻訳),
           われらをめぐる海 (ハヤカワ文庫 NF 5)
-          </li>
-          <li>
+         </li>
+         <li>
           アーネスト シャクルトン (著), 木村 義昌 (翻訳), 谷口 善也 (翻訳),
           エンデュアランス号漂流記 (中公文庫BIBLIO)
-          </li>
+         </li>
         </ul>
-
-
+       </article>
+      </div>
+     </section>
     </section>
-  </main>
-
-  <footer id="footer">
+   </main>
+   <footer id="footer">
     <p>
-      <small>
-        <script>
-          const day = new Date(document.lastModified);
-          document.write("Last Update: " + day.getFullYear() + "/" + (day.getMonth() + 1) + "/" + day.getDate());
-        </script>
-        <br>
-        Since: 2011/09/01 <br>
-        Copyright &copy; Hidetaka Kobayashi. All Rights Reserved.
-      </small>
+     <small>
+      Last Update:
+      <span id="last-update">
+      </span>
+      <br/>
+      Since: 2011/09/01
+      <br/>
+      Copyright &copy; Hidetaka Kobayashi. All Rights Reserved.
+     </small>
     </p>
-  </footer>
+   </footer>
+  </div>
+  <script>
+   (() => {
+    const target = document.getElementById("last-update");
+    const modified = new Date(document.lastModified);
 
-</div>
-</body>
+    if (target && !Number.isNaN(modified.getTime())) {
+      target.textContent = new Intl.DateTimeFormat("ja-JP", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).format(modified);
+    }
+  })();
+  </script>
+ </body>
 </html>
