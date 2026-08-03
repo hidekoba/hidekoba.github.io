@@ -167,3 +167,25 @@ dd { margin: 0; }
 .eyebrow { max-width: 58rem; line-height: 1.7; letter-spacing: .07em; text-transform: none; }
 .hero .section-label { color: rgba(255,255,255,.9); }
 .profile-links a { color: #075f6b; }
+
+/* Navigation label contrast fix */
+#globalnavi .nav-en,
+#globalnavi .nav-ja {
+  color: inherit;
+}
+
+#globalnavi a:hover .nav-en,
+#globalnavi a:hover .nav-ja,
+#globalnavi a:focus-visible .nav-en,
+#globalnavi a:focus-visible .nav-ja,
+#globalnavi a[aria-current="page"] .nav-en,
+#globalnavi a[aria-current="page"] .nav-ja {
+  color: #ffffff;
+  opacity: 1;
+}
+
+#globalnavi a:hover,
+#globalnavi a:focus-visible {
+  color: #ffffff;
+  background: var(--ocean);
+}
