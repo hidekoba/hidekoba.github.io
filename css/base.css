@@ -733,3 +733,79 @@ dd { margin: 0; }
   .year-group:not([open]) > *:not(summary) { display: block; }
   .year-jump, .outputs-toc { display: none; }
 }
+
+
+/* --------------------------------------------------
+   Invitation for young researchers (Home)
+-------------------------------------------------- */
+.young-researchers {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin-top: 34px;
+  padding: clamp(26px, 5vw, 42px);
+  color: #54301f;
+  background:
+    radial-gradient(circle at 92% 15%, rgba(255,255,255,.7) 0 9%, transparent 9.5%),
+    linear-gradient(135deg, #fff3dc 0%, #ffe0b5 54%, #f6b47d 100%);
+  border: 1px solid rgba(181, 75, 39, .2);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.young-researchers::before {
+  position: absolute;
+  right: -72px;
+  bottom: -110px;
+  width: 280px;
+  height: 280px;
+  border: 44px solid rgba(255,255,255,.2);
+  border-radius: 50%;
+  content: "";
+}
+.young-researchers-copy { position: relative; z-index: 1; max-width: 52rem; }
+.young-researchers .section-label { color: #a94725; }
+.young-researchers h2 {
+  margin: 0 0 16px;
+  color: #71391f;
+  font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+  line-height: 1.45;
+}
+.young-researchers h2 [lang="en"] {
+  display: block;
+  margin-top: .45rem;
+  color: #8a5539;
+  font-size: .5em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.young-researchers p { margin: .8em 0; }
+.young-researchers p[lang="en"] {
+  color: #754f3d;
+  font-size: .92rem;
+  line-height: 1.7;
+}
+.young-researchers-contact { margin-top: 1.2rem !important; font-weight: 700; }
+.young-researchers-contact a { color: #8f3f22; }
+.young-researchers-contact a:hover { color: #6f2d17; }
+.young-researchers-mark {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  margin: 0;
+  color: #a94725;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(169,71,37,.18);
+  border-radius: 50%;
+}
+@media (max-width: 720px) {
+  .young-researchers { grid-template-columns: 1fr; }
+  .young-researchers-mark { display: none; }
+}
