@@ -55,12 +55,12 @@ img { max-width: 100%; height: auto; }
 .description { margin: 16px 0 0; color: var(--muted); }
 
 #globalnavi { padding: 0 32px; background: #ffffff; }
-#globalnavi ul { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 0; padding: 10px; list-style: none; background: #eef5f6; border-radius: 10px; }
+#globalnavi ul { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin: 0; padding: 10px; list-style: none; background: #eef5f6; border-radius: 10px; }
 #globalnavi a { display: grid; place-items: center; min-height: 58px; color: var(--navy); text-decoration: none; border-radius: 7px; transition: transform .2s ease, background .2s ease, color .2s ease; }
 #globalnavi a:hover { background: white; }
 #globalnavi a[aria-current="page"] { color: white; background: linear-gradient(135deg, var(--navy), var(--ocean)); }
-.nav-en { font-size: .88rem; font-weight: 700; }
-.nav-ja { font-size: .7rem; opacity: .8; }
+.nav-en { font-size: .82rem; font-weight: 700; }
+.nav-ja { font-size: .66rem; opacity: .8; }
 
 #container { padding: 26px 48px 52px; }
 .hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(240px, .65fr); gap: 38px; align-items: center; padding: 38px; background: linear-gradient(135deg, #123a55 0%, #087f8c 68%, #2aa6a4 100%); border-radius: 14px; color: white; position: relative; overflow: hidden; }
