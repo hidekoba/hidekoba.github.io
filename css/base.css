@@ -736,76 +736,137 @@ dd { margin: 0; }
 
 
 /* --------------------------------------------------
-   Invitation for young researchers (Home)
+   Young Researchers
 -------------------------------------------------- */
+
 .young-researchers {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 24px;
-  align-items: center;
-  margin-top: 34px;
-  padding: clamp(26px, 5vw, 42px);
-  color: #54301f;
-  background:
-    radial-gradient(circle at 92% 15%, rgba(255,255,255,.7) 0 9%, transparent 9.5%),
-    linear-gradient(135deg, #fff3dc 0%, #ffe0b5 54%, #f6b47d 100%);
-  border: 1px solid rgba(181, 75, 39, .2);
-  border-radius: 14px;
+  margin: 3.5rem 0;
+  padding: 2.2rem 2.4rem;
+  background: linear-gradient(135deg, #fff8ef 0%, #fff3e3 100%);
+  border: 1px solid #efd9bb;
+  border-radius: 16px;
   overflow: hidden;
 }
+
 .young-researchers::before {
-  position: absolute;
-  right: -72px;
-  bottom: -110px;
-  width: 280px;
-  height: 280px;
-  border: 44px solid rgba(255,255,255,.2);
-  border-radius: 50%;
   content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right,
+      rgba(255, 194, 120, 0.18),
+      transparent 45%);
+  pointer-events: none;
 }
-.young-researchers-copy { position: relative; z-index: 1; max-width: 52rem; }
-.young-researchers .section-label { color: #a94725; }
-.young-researchers h2 {
-  margin: 0 0 16px;
-  color: #71391f;
-  font-size: clamp(1.55rem, 3.5vw, 2.35rem);
-  line-height: 1.45;
-}
-.young-researchers h2 [lang="en"] {
-  display: block;
-  margin-top: .45rem;
-  color: #8a5539;
-  font-size: .5em;
-  font-weight: 500;
-  letter-spacing: 0;
-}
-.young-researchers p { margin: .8em 0; }
-.young-researchers p[lang="en"] {
-  color: #754f3d;
-  font-size: .92rem;
-  line-height: 1.7;
-}
-.young-researchers-contact { margin-top: 1.2rem !important; font-weight: 700; }
-.young-researchers-contact a { color: #8f3f22; }
-.young-researchers-contact a:hover { color: #6f2d17; }
-.young-researchers-mark {
+
+.young-researchers-copy {
   position: relative;
   z-index: 1;
-  display: grid;
-  place-items: center;
-  width: 84px;
-  height: 84px;
-  margin: 0;
-  color: #a94725;
-  font-size: 3.5rem;
+  max-width: 760px;
+}
+
+.young-researchers h2 {
+  margin-top: 0.3rem;
+  color: #8a4b2a;
+}
+
+.young-researchers h2 span[lang="en"] {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.75em;
+  font-weight: 500;
+  color: #6f6258;
+}
+
+.young-researchers p {
+  line-height: 1.9;
+}
+
+.young-researchers p + p {
+  margin-top: 1rem;
+}
+
+.young-researchers p[lang="en"] {
+  margin-top: 1.2rem;
+  font-size: 0.94rem;
+  color: #5f5b57;
+}
+
+.young-researchers-link {
+  margin-top: 1.5rem;
+}
+
+.young-researchers-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   font-weight: 700;
-  line-height: 1;
-  background: rgba(255,255,255,.55);
-  border: 1px solid rgba(169,71,37,.18);
+  color: #8a4b2a;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.young-researchers-link a::after {
+  content: "Å®";
+  transition: transform 0.2s ease;
+}
+
+.young-researchers-link a:hover {
+  color: #a95d34;
+}
+
+.young-researchers-link a:hover::after {
+  transform: translateX(4px);
+}
+
+.young-researchers-mark {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.3rem;
+  width: 112px;
+  height: 112px;
+  margin: 0;
+  border: 3px solid rgba(180, 105, 48, 0.14);
+  border-radius: 50%;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* åoê¸ */
+.young-researchers-mark::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: 27px;
+  right: 27px;
+  border: 3px solid rgba(180, 105, 48, 0.11);
+  border-top-color: transparent;
+  border-bottom-color: transparent;
   border-radius: 50%;
 }
+
+/* à‹ê¸ */
+.young-researchers-mark::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  bottom: 29px;
+  left: -3px;
+  right: -3px;
+  border: 3px solid rgba(180, 105, 48, 0.11);
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
 @media (max-width: 720px) {
-  .young-researchers { grid-template-columns: 1fr; }
-  .young-researchers-mark { display: none; }
+  .young-researchers {
+    padding: 1.7rem;
+  }
+
+  .young-researchers-mark {
+    display: none;
+  }
 }
