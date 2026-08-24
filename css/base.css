@@ -55,7 +55,7 @@ img { max-width: 100%; height: auto; }
 .description { margin: 16px 0 0; color: var(--muted); }
 
 #globalnavi { padding: 0 32px; background: #ffffff; }
-#globalnavi ul { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin: 0; padding: 10px; list-style: none; background: #eef5f6; border-radius: 10px; }
+#globalnavi ul { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; margin: 0; padding: 10px; list-style: none; background: #eef5f6; border-radius: 10px; }
 #globalnavi a { display: grid; place-items: center; min-height: 58px; color: var(--navy); text-decoration: none; border-radius: 7px; transition: transform .2s ease, background .2s ease, color .2s ease; }
 #globalnavi a:hover { background: white; }
 #globalnavi a[aria-current="page"] { color: white; background: linear-gradient(135deg, var(--navy), var(--ocean)); }
@@ -947,4 +947,163 @@ dd { margin: 0; }
   .news-badge { grid-column: 2; grid-row: 1; }
 }
 
+/* ==================================================
+   Laboratory / Research Environment
+   ================================================== */
+.facility-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.facility-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.facility-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #eef5f6;
+}
+
+.facility-copy {
+  padding: 1.2rem;
+}
+
+.facility-label {
+  margin: 0 0 0.35rem;
+  color: var(--ocean);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.facility-card h3 {
+  margin: 0 0 0.8rem;
+}
+
+.facility-card h3 span[lang="en"],
+.facility-hpc h3 span[lang="en"] {
+  display: block;
+  margin-top: 0.2rem;
+  color: #40566a;
+  font-size: 0.82em;
+  font-weight: 500;
+}
+
+.facility-specs {
+  margin: 0.8rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.facility-specs li + li {
+  margin-top: 0.25rem;
+}
+
+.facility-hpc {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: #f8fbfb;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.gallery-link {
+  margin-top: 1.25rem;
+  text-align: right;
+  font-weight: 700;
+}
+
+.section-intro-en {
+  margin-top: 0.55rem;
+  padding-left: 0.85rem;
+  color: #40566a;
+  font-size: 0.93rem;
+  border-left: 2px solid #c6d7dd;
+}
+
+/* ==================================================
+   Gallery
+   ================================================== */
+.gallery-intro {
+  margin-bottom: 2rem;
+}
+
+.gallery-section {
+  margin-top: 2.8rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.photo-card {
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.photo-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #eef5f6;
+}
+
+.photo-card figcaption {
+  padding: 1rem;
+  line-height: 1.65;
+}
+
+.photo-card figcaption > span {
+  display: block;
+}
+
+.photo-meta {
+  margin: 0.25rem 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.photo-card figcaption span[lang="en"] {
+  margin-top: 0.45rem;
+  color: #40566a;
+  font-size: 0.9rem;
+}
+
+.gallery-note {
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .facility-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
