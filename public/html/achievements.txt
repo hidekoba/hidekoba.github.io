@@ -8,8 +8,6 @@ Nishida, M., H. Kobayashi, and A. Oka (2026, Accepted): Impact of ocean physical
 
 Kobayashi, H., T. Yokohata, A. Yamamoto, T. Hajima, H. Tatebe, A. Oka, and K. B. Rodgers (2026, Accepted): Multi-centennial ocean biogeochemical responses to extended Shared Socioeconomic Pathways, Biogeosciences.
 
-Kobayashi, H., T. Yokohata, A. Yamamoto, T. Hajima, H. Tatebe, A. Oka, and K. B. Rodgers (2026, Accepted): Multi-centennial ocean biogeochemical responses to extended Shared Socioeconomic Pathways, Biogeosciences.
-
 Kobayashi, H., A. Oka, T. Obase, and A. Abe-Ouchi (2024): Assessing transient changes in the ocean carbon cycle during the last deglaciation through carbon isotope modeling, Climate of the Past, 20, 769–787. https://doi.org/10.5194/cp-20-769-2024
 
 Sasaki, Y., H. Kobayashi, and A. Oka (2022): Global simulation of dissolved 231Pa and 230Th in the ocean and the sedimentary 231Pa/230Th ratios with the ocean general circulation model COCO ver4.0, Geoscientific Model Development, 15, 2013–2033. https://doi.org/10.5194/gmd-15-2013-2022
